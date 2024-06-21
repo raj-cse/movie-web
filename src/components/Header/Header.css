@@ -1,0 +1,151 @@
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: transparent; /* Added slight background color for readability */
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  padding: 0.5rem 1rem; /* Increased padding for better spacing */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-icon {
+  width: 100px;
+  height: auto;
+  display: block;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 40px; /* Increased padding-left to shift items right */
+}
+
+.nav-item {
+  margin: 0 40px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: white;
+}
+
+.nav-item:hover {
+  color: red;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: white;
+}
+
+.search-box input {
+  padding: 10px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  outline: none;
+  font-size: 18px;
+  max-width: 200px;
+  color: white;
+}
+
+.search-box input::placeholder {
+  color: white;
+}
+
+.search-icon {
+  width: 30px;
+  cursor: pointer;
+  margin-left: 8px;
+  filter: invert(1);
+}
+
+.sign-in {
+  margin-left: 20px;
+}
+
+.sign-button {
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 1px solid white;
+  outline: none;
+  color: white;
+  border-radius: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1rem;
+  }
+
+  .header-left {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .nav-list {
+      flex-direction: column;
+      padding-left: 0;
+  }
+
+  .nav-item {
+      margin: 10px 0;
+  }
+
+  .search-box {
+      width: 100%;
+      justify-content: space-between;
+      margin-top: 10px;
+  }
+
+  .search-box input {
+      max-width: 100%;
+      width: 100%;
+  }
+
+  .sign-in {
+      margin-left: 0;
+      width: 100%;
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  .sign-button {
+      width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-item {
+      font-size: 1rem;
+  }
+
+  .search-box {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .search-icon {
+      margin-left: 0;
+      margin-top: 10px;
+  }
+}

@@ -1,0 +1,136 @@
+.card {
+    width: fit-content;
+   height: fit-content;
+    border-radius: 2px;
+    overflow: hidden;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  
+  
+  }
+ 
+  .big{
+    display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    gap: 10px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+
+.title{
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+    display: flex;
+    align-items: start;
+    margin-left: 5px;
+    justify-content: flex-start;
+  }
+  .rating{
+    color:yellow;
+    font-size: 10px;
+    display: flex;
+    font-weight: 100;
+    justify-content: space-between;
+    margin: 1px 10px;
+  }
+  
+  .rating img {
+    width: 15px;
+  }
+  .star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .third-container {
+    text-align: center; /* Aligns the buttons in the center horizontally */
+  }
+  .heading{
+    
+    display: flex;
+    justify-content:space-between;
+    margin-left: 20px;
+    gap: 10px;
+    padding: 20px 0;
+  }
+  .heading h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: red;
+  
+  }
+  .heading input {
+  
+    border: none;
+    outline: none;
+    padding: 8px  ;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color:rgb(51, 49, 49);
+    color: white;
+    width: 20vw;
+  }
+  .gate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .gate img {
+    width: 50px;
+    border-radius: 50%;
+    filter: hue-rotate(180deg);
+    fill: red;
+  }
+  .placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    gap: 5px;
+    
+  }
+  .placeholder img {
+    filter: invert(1);
+    width: 35px;
+    cursor: pointer;;
+  }
+  .arrow-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+  .arrow-btn button {
+    margin: 0 10px;
+    border: none;
+    outline: none;
+    background-color: black;
+    cursor: pointer;
+}
+  hr{
+    border-bottom: 1px seashell;
+    width: 90%;
+    margin: 0 auto;
+  
+}
+.page-number {
+  color:white;
+  font-size: 14px;
+}

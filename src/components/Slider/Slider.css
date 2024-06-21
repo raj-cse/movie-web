@@ -1,0 +1,110 @@
+/* Slider.css */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css");
+
+.middle-container {
+  text-align: center; /* Aligns the buttons in the center horizontally */
+}
+
+.button {
+  list-style-type: none; /* Removes default list styling */
+  padding: 0;
+  margin: 40px 0; /* Adds larger margin above and below the button list */
+}
+
+.button li {
+  display: inline-block; /* Display buttons in a horizontal line */
+  margin-bottom: 20px; /* Adds margin below each button */
+}
+
+.button button {
+  background-color: rgb(24, 23, 23); /* Background color */
+  color: white; /* Text color */
+  border: none; /* Removes button border */
+  padding: 15px 30px; /* Padding inside the button (increased for more space) */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Cursor style on hover */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition for background color and scale */
+  margin-right: 40px; /* Larger gap between buttons */
+  border-radius: 10px; /* Adds border radius */
+}
+
+.button button:hover {
+  background-color: red; /* Darker red on hover */
+  transform: scale(1.05); /* Slight scale-up effect on hover */
+}
+
+.button button:last-child {
+  margin-right: 0; /* Remove right margin from the last button */
+}
+
+/* Card styling */
+.card {
+  padding: 10px; /* Adds padding around the card */
+}
+
+.card img {
+  width: 100%; /* Ensures the image takes full width of the container */
+  height: auto; /* Maintains aspect ratio of the image */
+  border-radius: 10px; /* Adds border radius to the image */
+  object-fit: cover; /* Ensures the image covers the container */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.card img:hover {
+  transform: scale(1.05); /* Slight scale-up effect on hover */
+}
+.title{
+  color: white;
+  font-size: 10px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: flex-start;
+}
+.rating{
+  color:yellow;
+  font-size: 10px;
+  display: flex;
+  font-weight: 100;
+  justify-content: space-between;
+  margin: 1px 10px;
+}
+
+.rating img {
+  width: 15px;
+}
+.star{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.heading-1{
+  display: flex;
+  justify-content:start;
+  margin-left: 20px;
+ align-items: center;
+  gap: 10px;
+}
+.heading-1 h1{
+  color: white;
+ 
+  font-size: 30px;
+  color: red;
+  font-weight: 400;
+  font-family: sans-serif;
+
+}
+.heading-1 img {
+  filter: invert(1); 
+  width:50px ;
+  
+}
+
+hr{
+  border-bottom: 1px seashell;
+ 
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
