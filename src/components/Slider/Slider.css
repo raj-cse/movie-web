@@ -17,6 +17,10 @@
 .button li {
   margin-bottom: 10px;
 }
+.slick-slider button{
+  display: none;
+}
+
 
 .button button {
   background-color: rgb(24, 23, 23);
@@ -32,6 +36,7 @@
 
 .button button:hover {
   background-color: red;
+  display: none;
   transform: scale(1.05);
 }
 
@@ -135,7 +140,8 @@ hr {
   }
 
   .heading-1 {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: start;
     margin: 15px 0; 
   }
 
@@ -160,11 +166,11 @@ hr {
     border-radius: 5px; 
   }
 
-  .title {
+  .title h2{
     font-size: 8px; 
   }
 
-  .rating {
+  .rating h3{
     font-size: 5px; 
   }
 

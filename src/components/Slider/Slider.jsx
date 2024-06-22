@@ -15,6 +15,28 @@ export default function Middle() {
     autoplaySpeed: 3000,
     pauseOnHover: true,
     button :false,
+    responsive :[
+      {
+        breakpoint:1070,
+        settings :{
+       slidesToShow:3,
+        
+        },
+
+      },
+      {
+        breakpoint:877,
+        settings:{
+          slidesToShow:3,
+        },
+      },
+      {
+        breakpoint:656,
+        settings:{
+          slidesToShow:2,
+        },
+      },
+    ],
   }
 
   return (
