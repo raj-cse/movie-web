@@ -32,7 +32,7 @@ export default function Card() {
             <div className="heading">
                 <div className="gate">
                     <img src={gif} alt="Movies" />
-                    <h1>goose</h1>
+                    <h1>Movies</h1>
                 </div>
                 <div className="placeholder">
                     <input type="text" placeholder="Movie Search...." />
