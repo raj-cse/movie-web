@@ -1,110 +1,193 @@
-/* Slider.css */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css");
 
+/* Base styles */
 .middle-container {
-  text-align: center; /* Aligns the buttons in the center horizontally */
+  text-align: center;
+  padding: 0 15px; /* Adjust padding for content */
 }
 
 .button {
-  list-style-type: none; /* Removes default list styling */
+  list-style-type: none;
   padding: 0;
-  margin: 40px 0; /* Adds larger margin above and below the button list */
+  margin: 20px 0; /* Default margin for button list */
+  text-align: center;
 }
 
 .button li {
-  display: inline-block; /* Display buttons in a horizontal line */
-  margin-bottom: 20px; /* Adds margin below each button */
+  margin-bottom: 10px;
 }
 
 .button button {
-  background-color: rgb(24, 23, 23); /* Background color */
-  color: white; /* Text color */
-  border: none; /* Removes button border */
-  padding: 15px 30px; /* Padding inside the button (increased for more space) */
-  font-size: 15px; /* Font size */
-  cursor: pointer; /* Cursor style on hover */
-  transition: background-color 0.3s, transform 0.2s; /* Smooth transition for background color and scale */
-  margin-right: 40px; /* Larger gap between buttons */
-  border-radius: 10px; /* Adds border radius */
+  background-color: rgb(24, 23, 23);
+  color: white;
+  border: none;
+  padding: 12px 20px; /* Default button padding */
+  font-size: 14px; /* Default font size */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  border-radius: 10px;
+  margin-right: 10px; /* Default margin between buttons */
 }
 
 .button button:hover {
-  background-color: red; /* Darker red on hover */
-  transform: scale(1.05); /* Slight scale-up effect on hover */
+  background-color: red;
+  transform: scale(1.05);
 }
 
 .button button:last-child {
-  margin-right: 0; /* Remove right margin from the last button */
+  margin-right: 0;
 }
 
-/* Card styling */
 .card {
-  padding: 10px; /* Adds padding around the card */
+  padding: 10px;
 }
 
 .card img {
-  width: 100%; /* Ensures the image takes full width of the container */
-  height: auto; /* Maintains aspect ratio of the image */
-  border-radius: 10px; /* Adds border radius to the image */
-  object-fit: cover; /* Ensures the image covers the container */
-  transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
 }
 
 .card img:hover {
-  transform: scale(1.05); /* Slight scale-up effect on hover */
+  transform: scale(1.05);
 }
-.title{
+
+.title {
   color: white;
-  font-size: 10px;
-  padding-top: 15px;
-  display: flex;
-  justify-content: flex-start;
+  font-size: 14px; /* Default font size for card titles */
+  padding-top: 10px;
+  text-align: left;
 }
-.rating{
-  color:yellow;
-  font-size: 10px;
+
+.rating {
+  color: yellow;
+  font-size: 12px; /* Default font size for ratings */
   display: flex;
-  font-weight: 100;
+  align-items: center;
   justify-content: space-between;
-  margin: 1px 10px;
+  margin: 5px 0;
 }
 
 .rating img {
-  width: 15px;
+  width: 15px; /* Default width for rating images */
 }
-.star{
+
+.star {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 3px;
 }
-.heading-1{
+
+.heading-1 {
   display: flex;
-  justify-content:start;
-  margin-left: 20px;
- align-items: center;
+  align-items: center;
   gap: 10px;
+  margin: 20px 0;
 }
-.heading-1 h1{
-  color: white;
- 
-  font-size: 30px;
+
+.heading-1 h1 {
   color: red;
+  font-size: 24px; /* Default font size for heading */
   font-weight: 400;
   font-family: sans-serif;
-
 }
+
 .heading-1 img {
-  filter: invert(1); 
-  width:50px ;
-  
+  filter: invert(1);
+  width: 50px;
 }
 
-hr{
-  border-bottom: 1px seashell;
- 
+hr {
+  border: none;
+  border-bottom: 1px solid seashell;
   width: 90%;
-  margin: 0 auto;
-  margin-top: 50px;
+  margin: 30px auto;
+}
+
+/* Media Queries */
+
+/* For Tablets (768px and below) */
+@media (max-width: 768px) {
+  .button li {
+    display: block; /* Display buttons in a vertical list on smaller screens */
+    margin-bottom: 15px; /* Increase margin bottom for better spacing */
+  }
+
+  .button button {
+    padding: 10px 15px; /* Adjust button padding */
+    font-size: 12px; /* Reduce font size for tablets */
+    margin-right: 5px; /* Reduce margin between buttons */
+  }
+
+  .card img {
+    border-radius: 8px; /* Reduce border radius for images on tablets */
+  }
+
+  .title {
+    font-size: 12px; /* Reduce font size for card titles on tablets */
+  }
+
+  .rating {
+    font-size: 10px; /* Reduce font size for ratings on tablets */
+  }
+
+  .heading-1 {
+    flex-direction: column; /* Stack heading items vertically on tablets */
+    margin: 15px 0; /* Adjust margin */
+  }
+
+  .heading-1 h1 {
+    font-size: 20px; /* Reduce font size for heading on tablets */
+  }
+
+  .heading-1 img {
+    width: 40px; /* Adjust logo size on tablets */
+  }
+}
+
+/* For Phones (576px and below) */
+@media (max-width: 576px) {
+  .button button {
+    padding: 10px 15px; /* Further reduce padding */
+    font-size: 10px; /* Further reduce font size for phones */
+    margin-right: 3px; /* Further reduce margin between buttons */
+  }
+
+  .card img {
+    border-radius: 5px; /* Reduce border radius even more for phones */
+  }
+
+  .title {
+    font-size: 8px; /* Further reduce font size for card titles on phones */
+  }
+
+  .rating {
+    font-size: 5px; /* Further reduce font size for ratings on phones */
+  }
+
+  .rating img {
+    width: 8px; /* Reduce width of rating images on phones */
+  }
+
+  .heading-1 h1 {
+    font-size: 12px; /* Further reduce font size for heading on phones */
+  }
+
+  .heading-1 img {
+    width: 22px; /* Further reduce logo size for phones */
+  }
+}
+
+/* For Laptop Screens (1024px and below) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .button {
+    margin: 20px 0px; /* Keep default margin for button list */
+  }
+
+  .button button {
+    margin-right: 20px; /* Increase margin between buttons for laptops */
+  }
 }

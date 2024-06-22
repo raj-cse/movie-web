@@ -2,22 +2,22 @@
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: transparent; /* Added slight background color for readability */
+  background-color: transparent;
   z-index: 1000;
   backdrop-filter: blur(10px);
-  padding: 0.5rem 1rem; /* Increased padding for better spacing */
+  padding: 0.5rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header-left {
+.left-container {
   display: flex;
   align-items: center;
 }
 
 .header-icon {
-  width: 100px;
+  width: 80px; /* Adjust width as needed */
   height: auto;
   display: block;
 }
@@ -27,56 +27,61 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  padding-left: 40px; /* Increased padding-left to shift items right */
+  padding-left: 20px; /* Adjust padding as needed */
 }
 
 .nav-item {
-  margin: 0 40px;
-  font-size: 1.1rem;
+  margin: 0 20px; /* Adjust margin as needed */
+  font-size: 1rem; /* Adjust font size as needed */
   cursor: pointer;
   color: white;
+  background-color: rgba(0, 0, 0, 0); /* Transparent background */
+  transition: background-color 0.3s ease; /* Smooth transition for background */
 }
 
 .nav-item:hover {
   color: red;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background on hover */
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
 }
 
 .search-box {
   display: flex;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 15px; /* Adjust padding as needed */
   border-radius: 50px;
   color: white;
 }
 
 .search-box input {
-  padding: 10px;
+  padding: 5px 10px; /* Adjust padding as needed */
   background: transparent;
   border: 1px solid white;
   border-radius: 20px;
   outline: none;
-  font-size: 18px;
-  max-width: 200px;
+  font-size: 14px; /* Adjust font size as needed */
+  max-width: 150px; /* Adjust max-width as needed */
   color: white;
-}
-
-.search-box input::placeholder {
-  color: white;
+  width: 100%; /* Fill remaining space */
 }
 
 .search-icon {
-  width: 30px;
+  width: 20px; /* Adjust width as needed */
   cursor: pointer;
-  margin-left: 8px;
+  margin-left: 5px; /* Adjust margin as needed */
   filter: invert(1);
 }
 
 .sign-in {
-  margin-left: 20px;
+  margin-left: 10px; /* Adjust margin as needed */
 }
 
 .sign-button {
-  padding: 10px 15px;
+  padding: 5px 10px; /* Adjust padding as needed */
   background-color: transparent;
   border: 1px solid white;
   outline: none;
@@ -86,7 +91,147 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px; /* Adjust font size as needed */
+  margin-right: 10px; /* Add margin to create gap */
 }
 
-/* Media Queries for Responsiveness */
+/* Hamburger icon */
+.hamburger-icon {
+  display: none;
+  width: 25px; /* Adjust width as needed */
+  cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .header {
+    flex-wrap: nowrap; /* Ensure flex items do not wrap */
+  }
+
+  .nav-list {
+    padding-left: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .nav-item {
+    margin: 0 10px;
+    font-size: 0.9rem;
+  }
+
+  .search-box {
+    padding: 6px 10px;
+  }
+
+  .search-box input {
+    font-size: 12px;
+    max-width: 120px; /* Reduce max-width for smaller screens */
+  }
+
+  .sign-in {
+    margin-left: 5px;
+  }
+
+  .sign-button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 626px) {
+  .nav-list {
+    display: none; /* Hide nav list */
+    flex-direction: column; /* Stack items vertically */
+    position: absolute;
+    top: 60px; /* Adjust top position to align with header */
+    right: 0;
+    left: 0;
+    background-color: transparent; /* Adjust background color as needed */
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 0 0 10px 10px; /* Rounded corners for menu */
+    z-index: 1000; /* Ensure menu is on top */
+    transition: max-height 0.3s ease-in-out; /* Add transition */
+    overflow: hidden; /* Hide overflow */
+    max-height: 0; /* Initially collapsed */
+  }
+
+  .nav-list.open {
+    display: flex; /* Show nav list when open */
+    max-height: 500px; /* Adjust to maximum height needed */
+  }
+
+  .nav-item {
+    margin: 10px 0; /* Space between items */
+    font-size: 1.2rem; /* Adjust font size */
+    text-align: center; /* Center text */
+    color: white; /* Ensure text color is white */
+    padding: 10px 0; /* Padding for better touch targets */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Add bottom border */
+    background-color: rgba(0, 0, 0, 0); /* Transparent background */
+    transition: background-color 0.3s ease; /* Smooth transition for background */
+  }
+
+  .nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background on hover */
+  }
+
+  .hamburger-icon {
+    display: block; /* Show hamburger icon */
+  }
+
+  .right-container {
+    flex: 1; /* Allow menu container to take remaining space */
+    justify-content: flex-end; /* Align items to the right */
+  }
+
+  .search-box {
+    margin-right: 0; /* Align search box to the right */
+  }
+
+  .sign-in {
+    margin-left: 5px; /* Adjust margin as needed */
+  }
+
+  .sign-button {
+    padding: 5px 10px; /* Adjust padding as needed */
+    font-size: 12px; /* Adjust font size as needed */
+    margin-right: 10px; /* Add margin to create gap */
+  }
+}
+
+@media (max-width: 390px) {
+  .header {
+    flex-wrap: nowrap; /* Prevent items from wrapping */
+    justify-content: space-between; /* Space items out */
+  }
+
+  .left-container {
+    justify-content: flex-start; /* Align items to the start */
+  }
+
+  .right-container {
+    justify-content: flex-end; /* Align items to the end */
+  }
+
+  .nav-list {
+    padding-left: 0; /* Remove left padding */
+    margin-top: 10px; /* Adjust margin as needed */
+    justify-content: flex-start; /* Align items to the start */
+  }
+
+  .search-box {
+    margin-top: 0; /* Remove top margin */
+  }
+
+  .search-box input {
+    max-width: 150px; /* Adjust max-width as needed */
+  }
+
+  .sign-in {
+    margin-top: 0; /* Remove top margin */
+  }
+
+  .sign-button {
+    padding: 5px 10px; /* Adjust padding as needed */
+    font-size: 12px; /* Adjust font size as needed */
+    margin-right: 10px; /* Add margin to create gap */
+  }
+}
