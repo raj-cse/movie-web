@@ -6,7 +6,7 @@ import rate from '../../Image/icons8-rating-30.png'
 import increase from '../../Image/icons8-chart-arrow-rise-64.png'
 export default function Middle() {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 700,
     slidesToShow: 5, // Show one slide at a time
@@ -14,6 +14,7 @@ export default function Middle() {
     autoplay: true,
     autoplaySpeed: 3000,
     pauseOnHover: true,
+    button :false,
   }
 
   return (

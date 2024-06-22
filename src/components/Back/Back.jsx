@@ -1,10 +1,11 @@
 import React from "react";
 import Slider from "react-slick";
 import './Back.css';
+import { Button } from "@mui/material";
 
 export default function Back() {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1, // Show one slide at a time
@@ -12,6 +13,7 @@ export default function Back() {
     autoplay: true,
     autoplaySpeed: 3000,
     pauseOnHover: true,
+    button :false,
   };
 
   return (
