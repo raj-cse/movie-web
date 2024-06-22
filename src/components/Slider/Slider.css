@@ -117,55 +117,55 @@ hr {
   }
 
   .button button {
-    padding: 10px 15px; /* Adjust button padding */
-    font-size: 12px; /* Reduce font size for tablets */
-    margin-right: 5px; /* Reduce margin between buttons */
+    padding: 10px 15px; 
+    font-size: 12px; 
+    margin-right: 5px; 
   }
 
   .card img {
-    border-radius: 8px; /* Reduce border radius for images on tablets */
+    border-radius: 8px;
   }
 
   .title {
-    font-size: 12px; /* Reduce font size for card titles on tablets */
+    font-size: 12px; 
   }
 
   .rating {
-    font-size: 10px; /* Reduce font size for ratings on tablets */
+    font-size: 10px; 
   }
 
   .heading-1 {
-    flex-direction: column; /* Stack heading items vertically on tablets */
-    margin: 15px 0; /* Adjust margin */
+    flex-direction: column;
+    margin: 15px 0; 
   }
 
   .heading-1 h1 {
-    font-size: 20px; /* Reduce font size for heading on tablets */
+    font-size: 20px; 
   }
 
   .heading-1 img {
-    width: 40px; /* Adjust logo size on tablets */
+    width: 40px; 
   }
 }
 
 /* For Phones (576px and below) */
 @media (max-width: 576px) {
   .button button {
-    padding: 10px 15px; /* Further reduce padding */
-    font-size: 10px; /* Further reduce font size for phones */
-    margin-right: 3px; /* Further reduce margin between buttons */
+    padding: 10px 15px; 
+    font-size: 10px; 
+    margin-right: 3px; 
   }
 
   .card img {
-    border-radius: 5px; /* Reduce border radius even more for phones */
+    border-radius: 5px; 
   }
 
   .title {
-    font-size: 8px; /* Further reduce font size for card titles on phones */
+    font-size: 8px; 
   }
 
   .rating {
-    font-size: 5px; /* Further reduce font size for ratings on phones */
+    font-size: 5px; 
   }
 
   .rating img {
