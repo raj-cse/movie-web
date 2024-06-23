@@ -6,7 +6,8 @@ import { Header } from './components/Header/Header';
 import Back from './components/Back/Back';
 import Middle from './components/Slider/Slider';
 import Card from './components/Card/Card';
-import Home from './components/Routes/Routes'
+
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
       <Back/> 
       <Middle/>
       <Card/>
+      <Footer/>
     </div>
   );
 }

@@ -12,7 +12,7 @@ export default function Card() {
     const Cardsperpage = 28;
     const [currentPage, setCurrentPage] = useState(1);
 
-    const totalPages = Math.ceil(moviedata.length / Cardsperpage); // Fixed to use Math.ceil
+    const totalPages = Math.ceil(moviedata.length / Cardsperpage); 
     const handleNextPage = (event) => {
         event.preventDefault();
         setCurrentPage(prevPage => Math.min(prevPage + 1, totalPages));
@@ -25,7 +25,7 @@ export default function Card() {
 
     const startIndex = (currentPage - 1) * Cardsperpage;
     const endIndex = startIndex + Cardsperpage;
-    const currentData = moviedata.slice(startIndex, endIndex); // Slice the data for current page
+    const currentData = moviedata.slice(startIndex, endIndex); 
 
     return (
         <div className="third-container">

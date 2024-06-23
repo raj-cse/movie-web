@@ -1,0 +1,168 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    padding: 20px;
+    color: #333;
+}
+
+.footer-logo img {
+    width: 15%;
+    padding: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 equal columns */
+    gap: 20px;
+    align-items: start;
+}
+
+.footer-img {
+    grid-column: 1 / span 1; /* Place footer-img in the first column */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    padding-left: 40px;
+}
+
+.footer-img img {
+    width: 30px; /* Adjust size as needed */
+    height: auto;
+}
+
+.footer-head {
+    display: contents; /* Use contents to ignore the wrapper div */
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section ul li {
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Specific styling for the first list item of each section */
+.section ul li:first-child {
+    color: red;
+    font-size: 20px; /* Increase font size */
+}
+
+.section-1 {
+    grid-column: 2 / span 1; /* Place section-1 in the second column */
+}
+
+.section-2 {
+    grid-column: 3 / span 1; /* Place section-2 in the third column */
+}
+
+.section-3 {
+    grid-column: 4 / span 1; /* Place section-3 in the fourth column */
+}
+
+/* Media queries for responsiveness */
+
+/* Laptops */
+@media (max-width: 1200px) {
+    .footer-logo img {
+        width: 20%;
+    }
+    
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */
+    }
+
+    .section-1 {
+        grid-column: 1 / span 1;
+    }
+
+    .section-2 {
+        grid-column: 2 / span 1;
+    }
+
+    .section-3 {
+        grid-column: 3 / span 1;
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    .footer-logo img {
+        width: 25%;
+    }
+    
+    .grid {
+        grid-template-columns: 1fr 1fr; /* 2 equal columns */
+    }
+
+    .footer-img {
+        grid-column: 1 / span 2; /* Footer image takes full width */
+        justify-content: center;
+    }
+
+    .section-1 {
+        grid-column: 1 / span 1;
+    }
+
+    .section-2 {
+        grid-column: 2 / span 1;
+    }
+
+    .section-3 {
+        grid-column: 1 / span 1; /* Keep section 3 in the same row */
+    }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+    .footer-logo img {
+        width: 30%;
+    }
+    
+    .grid {
+        grid-template-columns: 1fr 1fr; /* 2 columns layout */
+    }
+
+    .footer-img {
+        grid-column: 1 / span 2;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .section-1 {
+        grid-column: 1 / span 1;
+    }
+
+    .section-2 {
+        grid-column: 2 / span 1;
+    }
+
+    .section-3 {
+        grid-column: 1 / span 1; /* Ensure section 3 is in the same row */
+    }
+
+    .section ul li {
+        font-size: 14px; /* Adjust font size for better readability */
+        padding: 5px;
+    }
+
+    .section ul li:first-child {
+        font-size: 18px;
+    }
+}

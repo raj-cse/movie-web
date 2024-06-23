@@ -8,37 +8,7 @@ html, body {
   overflow-x: hidden;
 }
 
-.slick-arrow {
-  background-color: rgba(255, 0, 0, 0.5); /* Semi-transparent red background */
-  border-radius: 50%;
-  z-index: 2; /* Ensure arrows are above other elements */
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.3s; /* Smooth transition for hover effect */
-}
 
-.slick-prev:hover, .slick-next:hover {
-  background-color: rgba(255, 0, 0, 0.8); /* Darker red on hover */
-}
-
-.slick-prev:before, .slick-next:before {
-  color: white; /* White arrow color */
-  font-size: 20px; /* Increase arrow size */
-}
-
-.slick-dots li button:before {
-  font-size: 12px;
-  color: white; /* White dots */
-  opacity: 0.5; /* Semi-transparent */
-}
-
-.slick-dots li.slick-active button:before {
-  color: rgb(17, 12, 12); /* Active dot color */
-  opacity: 1; /* Fully opaque */
-}
 
 .slider-container {
   position: relative;
