@@ -1,3 +1,4 @@
+/* Base styles */
 .header {
   position: sticky;
   top: 0;
@@ -17,7 +18,7 @@
 }
 
 .header-icon {
-  width: 80px; /* Adjust width as needed */
+  width: 80px;
   height: auto;
   display: block;
 }
@@ -27,23 +28,64 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  padding-left: 20px; /* Adjust padding as needed */
+  padding-left: 20px;
 }
 
 .nav-item {
-  margin: 0 20px; /* Adjust margin as needed */
-  font-size: 1rem; /* Adjust font size as needed */
+  margin: 0 20px;
+  font-size: 1rem;
   cursor: pointer;
   color: white;
-  background-color: rgba(0, 0, 0, 0); /* Transparent background */
-  transition: background-color 0.3s ease; /* Smooth transition for background */
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease;
+  position: relative;
 }
 
 .nav-item:hover {
   color: red;
-  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background on hover */
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
+/* Dropdown Menu */
+.genre-item {
+  position: relative;
+}
+
+.genre-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  border-radius: 0 0 10px 10px;
+  z-index: 1000;
+  max-height: 60vh; /* Set a maximum height for the dropdown */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.genre-dropdown.open {
+  display: block;
+}
+
+.genre-dropdown li {
+  padding: 10px 20px;
+  color: white;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.genre-dropdown li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.genre-item:hover .genre-dropdown {
+  display: block;
+}
+
+/* Responsive adjustments */
 .right-container {
   display: flex;
   align-items: center;
@@ -52,36 +94,36 @@
 .search-box {
   display: flex;
   align-items: center;
-  padding: 10px 15px; /* Adjust padding as needed */
+  padding: 10px 15px;
   border-radius: 50px;
   color: white;
 }
 
 .search-box input {
-  padding: 5px 10px; /* Adjust padding as needed */
+  padding: 5px 10px;
   background: transparent;
   border: 1px solid white;
   border-radius: 20px;
   outline: none;
-  font-size: 14px; /* Adjust font size as needed */
-  max-width: 150px; /* Adjust max-width as needed */
+  font-size: 14px;
+  max-width: 150px;
   color: white;
-  width: 100%; /* Fill remaining space */
+  width: 100%;
 }
 
 .search-icon {
-  width: 20px; /* Adjust width as needed */
+  width: 20px;
   cursor: pointer;
-  margin-left: 5px; /* Adjust margin as needed */
+  margin-left: 5px;
   filter: invert(1);
 }
 
 .sign-in {
-  margin-left: 10px; /* Adjust margin as needed */
+  margin-left: 10px;
 }
 
 .sign-button {
-  padding: 5px 10px; /* Adjust padding as needed */
+  padding: 5px 10px;
   background-color: transparent;
   border: 1px solid white;
   outline: none;
@@ -91,25 +133,24 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px; /* Adjust font size as needed */
-  margin-right: 10px; /* Add margin to create gap */
+  font-size: 14px;
+  margin-right: 10px;
 }
 
-/* Hamburger icon */
 .hamburger-icon {
   display: none;
-  width: 25px; /* Adjust width as needed */
+  width: 25px;
   cursor: pointer;
 }
 
 /* Responsive adjustments */
 @media (max-width: 992px) {
   .header {
-    flex-wrap: nowrap; /* Ensure flex items do not wrap */
+    flex-wrap: nowrap;
   }
 
   .nav-list {
-    padding-left: 10px; /* Reduce padding for smaller screens */
+    padding-left: 10px;
   }
 
   .nav-item {
@@ -123,7 +164,7 @@
 
   .search-box input {
     font-size: 12px;
-    max-width: 120px; /* Reduce max-width for smaller screens */
+    max-width: 120px;
   }
 
   .sign-in {
@@ -138,100 +179,118 @@
 
 @media (max-width: 626px) {
   .nav-list {
-    display: none; /* Hide nav list */
-    flex-direction: column; /* Stack items vertically */
+    display: none;
+    flex-direction: column;
     position: absolute;
-    top: 60px; /* Adjust top position to align with header */
+    top: 60px;
     right: 0;
     left: 0;
-    background-color: transparent; /* Adjust background color as needed */
-    padding: 10px; /* Adjust padding as needed */
-    border-radius: 0 0 10px 10px; /* Rounded corners for menu */
-    z-index: 1000; /* Ensure menu is on top */
-    transition: max-height 0.3s ease-in-out; /* Add transition */
-    overflow: hidden; /* Hide overflow */
-    max-height: 0; /* Initially collapsed */
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    z-index: 1000;
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
   }
 
   .nav-list.open {
-    display: flex; /* Show nav list when open */
-    max-height: 500px; /* Adjust to maximum height needed */
+    display: flex;
+    max-height: 80vh; /* Adjust this value as needed */
   }
 
   .nav-item {
-    margin: 10px 0; /* Space between items */
-    font-size: 1.2rem; /* Adjust font size */
-    text-align: center; /* Center text */
-    color: white; /* Ensure text color is white */
-    padding: 10px 0; /* Padding for better touch targets */
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Add bottom border */
-    background-color: rgba(0, 0, 0, 0); /* Transparent background */
-    transition: background-color 0.3s ease; /* Smooth transition for background */
+    margin: 10px 0;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease;
   }
 
   .nav-item:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background on hover */
+    background-color: rgba(255, 255, 255, 0.1);
   }
 
   .hamburger-icon {
-    display: block; /* Show hamburger icon */
+    display: block;
   }
 
   .right-container {
-    flex: 1; /* Allow menu container to take remaining space */
-    justify-content: flex-end; /* Align items to the right */
+    flex: 1;
+    justify-content: flex-end;
   }
 
   .search-box {
-    margin-right: 0; /* Align search box to the right */
+    margin-right: 0;
   }
 
   .sign-in {
-    margin-left: 5px; /* Adjust margin as needed */
+    margin-left: 5px;
   }
 
   .sign-button {
-    padding: 5px 10px; /* Adjust padding as needed */
-    font-size: 12px; /* Adjust font size as needed */
-    margin-right: 10px; /* Add margin to create gap */
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+
+  .genre-dropdown {
+    position: static;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-left: 0;
+    max-height: none;
+    overflow-y: visible;
+  }
+
+  .genre-item.open .genre-dropdown {
+    display: block;
+  }
+
+  .genre-dropdown li {
+    padding: 10px 20px;
   }
 }
 
 @media (max-width: 390px) {
   .header {
-    flex-wrap: nowrap; /* Prevent items from wrapping */
-    justify-content: space-between; /* Space items out */
+    flex-wrap: nowrap;
+    justify-content: space-between;
   }
 
   .left-container {
-    justify-content: flex-start; /* Align items to the start */
+    justify-content: flex-start;
   }
 
   .right-container {
-    justify-content: flex-end; /* Align items to the end */
+    justify-content: flex-end;
   }
 
   .nav-list {
-    padding-left: 0; /* Remove left padding */
-    margin-top: 10px; /* Adjust margin as needed */
-    justify-content: flex-start; /* Align items to the start */
+    padding-left: 0;
+    margin-top: 10px;
+    justify-content: flex-start;
   }
 
   .search-box {
-    margin-top: 0; /* Remove top margin */
+    margin-top: 5px;
+    padding: 6px 10px;
   }
 
   .search-box input {
-    max-width: 150px; /* Adjust max-width as needed */
+    font-size: 12px;
+    max-width: 120px;
   }
 
   .sign-in {
-    margin-top: 0; /* Remove top margin */
+    margin-left: 5px;
   }
 
   .sign-button {
-    padding: 5px 10px; /* Adjust padding as needed */
-    font-size: 12px; /* Adjust font size as needed */
-    margin-right: 10px; /* Add margin to create gap */
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-right: 10px;
   }
 }

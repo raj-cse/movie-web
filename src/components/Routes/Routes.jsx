@@ -2,7 +2,7 @@ import React from "react";
 import './Routes.css';
 import schedule from '../../Image/icons8-film-reel-64.png';
 import { useParams } from "react-router-dom";
-import data from "../../data"
+import data from "../../data";
 
 export default function Routeall() {
   let { id } = useParams();
@@ -17,7 +17,7 @@ export default function Routeall() {
       <div className="big-container">
         <div className="cardx">
           <img src={movie.thumbnail} alt={movie.title} />
-          <button>Download</button>
+          <a href={movie.dlink} className="button">Download</a>
         </div>
         <div className="para-1">
           <p>{movie.description}</p>

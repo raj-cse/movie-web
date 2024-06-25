@@ -17,12 +17,12 @@ export default function Card() {
         event.preventDefault();
         setCurrentPage(prevPage => Math.min(prevPage + 1, totalPages));
     };
-
+    
     const handlePrevPage = (event) => {
         event.preventDefault();
         setCurrentPage(prevPage => Math.max(prevPage - 1, 1));
     };
-
+   
     const startIndex = (currentPage - 1) * Cardsperpage;
     const endIndex = startIndex + Cardsperpage;
     const currentData = moviedata.slice(startIndex, endIndex); 

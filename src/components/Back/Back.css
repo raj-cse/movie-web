@@ -46,10 +46,7 @@ hr {
   text-shadow: 1px 1px 2px black;  
   transition: background-color 0.3s, transform 0.3s;
 }
-.para:hover {
-  background-color: rgba(0, 0, 0, 0.85); /* Slightly darker background on hover */
-  transform: translateY(-5px); /* Lift effect on hover */
-}
+
 
 
 .poster-img {

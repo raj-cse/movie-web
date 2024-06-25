@@ -6,9 +6,15 @@ import hamburgerIcon from '../../Image/icons8-line-width-24-removebg-preview.png
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isGenreOpen, setIsGenreOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+    setIsGenreOpen(false); // Close genre dropdown when toggling menu
+  };
+
+  const toggleGenre = () => {
+    setIsGenreOpen(!isGenreOpen);
   };
 
   return (
@@ -17,7 +23,21 @@ export const Header = () => {
         <img className='header-icon' src={logo} alt="Movie Zone Logo" />
         <ul className={`nav-list ${isMenuOpen ? 'open' : ''}`}>
           <li className='nav-item'>Home</li>
-          <li className='nav-item'>Genre</li>
+          <li 
+            className={`nav-item genre-item ${isGenreOpen ? 'open' : ''}`} 
+            onClick={toggleGenre}
+          >
+            Genre
+            <ul className={`genre-dropdown ${isGenreOpen ? 'open' : ''}`}>
+              <li>Action</li>
+              <li>Comedy</li>
+              <li>Drama</li>
+              <li>Horror</li>
+              <li>Romance</li>
+              <li>Sci-Fi</li>
+              {/* Add more genres as needed */}
+            </ul>
+          </li>
           <li className='nav-item'>Movies</li>
           <li className='nav-item'>Contact</li>
         </ul>
