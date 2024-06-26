@@ -6,15 +6,17 @@ import { Header } from './components/Header/Header';
 import Back from './components/Back/Back';
 import Middle from './components/Slider/Slider';
 import Card from './components/Card/Card';
+import { useState } from 'react';
 
 import Footer from './components/Footer/Footer';
 function App() {
+  const [selectedGenre, setSelectedGenre] = useState('allmovies');
   return (
     <div>
       <Header/>
       <Back/> 
-      <Middle/>
-      <Card/>
+      <Middle selectedGenre={selectedGenre} setSelectedGenre={setSelectedGenre} />
+      <Card selectedGenre={selectedGenre} />
       <Footer/>
     </div>
   );

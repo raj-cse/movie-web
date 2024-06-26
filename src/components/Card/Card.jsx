@@ -8,24 +8,34 @@ import previous from '../../Image/icons8-previous-50 (3).png';
 import next from '../../Image/icons8-next-50 (1).png';
 import { Link } from "react-router-dom";
 
-export default function Card() {
+export default function Card({ selectedGenre }) {
+    console.log("Selected category:", selectedGenre);
+    console.log("Available movies:", moviedata);
+
+    const filtermovie = moviedata.filter((movie) => (
+        selectedGenre === 'allmovies' || movie.gen === selectedGenre
+    ));
+
+    console.log("Filtered movies:", filtermovie);
+
     const Cardsperpage = 28;
     const [currentPage, setCurrentPage] = useState(1);
 
-    const totalPages = Math.ceil(moviedata.length / Cardsperpage); 
+    const totalPages = Math.ceil(filtermovie.length / Cardsperpage);
+
     const handleNextPage = (event) => {
         event.preventDefault();
         setCurrentPage(prevPage => Math.min(prevPage + 1, totalPages));
     };
-    
+
     const handlePrevPage = (event) => {
         event.preventDefault();
         setCurrentPage(prevPage => Math.max(prevPage - 1, 1));
     };
-   
+
     const startIndex = (currentPage - 1) * Cardsperpage;
     const endIndex = startIndex + Cardsperpage;
-    const currentData = moviedata.slice(startIndex, endIndex); 
+    const currentData = filtermovie.slice(startIndex, endIndex);
 
     return (
         <div className="third-container">
@@ -34,32 +44,29 @@ export default function Card() {
                     <img src={gif} alt="Movies" />
                     <h1>Movies</h1>
                 </div>
-                <div className="placeholder">
-                    <input type="text" placeholder="Movie Search...." />
-                    <img src={searchIcon} alt="Search" />
-                </div>
+               
             </div>
             <div className="big">
                 {currentData.map((v, i) => (
-                   <Link key={i} to ={`/movies/${v.uid}`}>
-                     <div className="card" key={i}>
-                        <div className="head">
-                            <img src={v.thumbnail} alt={v.title} />
-                        </div>
-                        <div className="info">
-                            <div className="title">
-                                <h2>{v.title}</h2>
+                    <Link key={i} to={`/movies/${v.uid}`}>
+                        <div className="card">
+                            <div className="head">
+                                <img src={v.thumbnail} alt={v.title} />
                             </div>
-                            <div className="rating">
-                                <h3>{v.year}</h3>
-                                <div className="star">
-                                    <img src={rate} alt="Rating" />
-                                    <h3>{v.rating}</h3>
+                            <div className="info">
+                                <div className="title">
+                                    <h2>{v.title}</h2>
+                                </div>
+                                <div className="rating">
+                                    <h3>{v.year}</h3>
+                                    <div className="star">
+                                        <img src={rate} alt="Rating" />
+                                        <h3>{v.rating}</h3>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                   </Link>
+                    </Link>
                 ))}
             </div>
             <div className="arrow-btn">

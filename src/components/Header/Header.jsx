@@ -3,14 +3,27 @@ import './Header.css';
 import logo from '../../Image/ffTiYckswWi9iJ3Oj4vRm-transformed.png';
 import searchIcon from '../../Image/logo.svg';
 import hamburgerIcon from '../../Image/icons8-line-width-24-removebg-preview.png';
+import { useNavigate } from 'react-router-dom';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isGenreOpen, setIsGenreOpen] = useState(false);
+  const [query, setQuery] = useState('');
+  const navigate = useNavigate();
+
+  const handleSearch = () => {
+    navigate(`/search/${query}`);
+  };
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
     setIsGenreOpen(false); // Close genre dropdown when toggling menu
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      handleSearch();
+    }
   };
 
   const toggleGenre = () => {
@@ -45,8 +58,13 @@ export const Header = () => {
 
       <div className='right-container'>
         <div className='search-box'>
-          <input type="text" placeholder='Search' />
-          <img src={searchIcon} alt="Search" className='search-icon' />
+          <input 
+            type="text"
+            onChange={(e) => setQuery(e.target.value)}
+            onKeyPress={handleKeyPress}
+            placeholder='Search' 
+          />
+          <img src={searchIcon} alt="Search" className='search-icon' onClick={handleSearch} />
         </div>
         
         <div className='sign-in'>

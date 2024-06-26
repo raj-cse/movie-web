@@ -2,6 +2,7 @@ export default [
     
         {
             "uid": "Joker: Folie a Deux",
+            "gen": "action",
             "title": "Joker: Folie a Deux",
             "description": "Sequel to the critically acclaimed film Joker, exploring the next chapter in the life of Arthur Fleck.",
             "year": 2024,
@@ -16,6 +17,7 @@ export default [
         },
         {
             "uid": "kingdom-of-the-planet-of-apes",
+            "gen": "action",
             "title": "Kingdom of the Planet of Apes",
             "description": "A new chapter in the Planet of the Apes saga, exploring the rise of intelligent apes.",
             "year": 2024,
@@ -30,6 +32,7 @@ export default [
         },
         {
             "uid": "the-garfield-movie",
+            "gen": "action",
             "title": "The Garfield Movie",
             "description": "A new animated adventure featuring Garfield, the lazy and lovable cat.",
             "year": 2024,
@@ -1200,6 +1203,7 @@ export default [
     },
     {
         "uid": "Daredevil",
+        "gen":"",
         "title": "Daredevil",
         "year": 2003,
         "rating": 5.3,
