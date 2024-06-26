@@ -173,7 +173,8 @@ hr {
   .button button {
     padding: 10px 15px; 
     font-size: 10px; 
-    margin-right: 3px; 
+    margin-right: 3px;
+    margin-bottom: 5px; 
   }
 
   .card img {
@@ -181,11 +182,11 @@ hr {
   }
 
   .title h2 {
-    font-size: 8px; 
+    font-size: 12px; 
   }
 
   .rating h3 {
-    font-size: 5px; 
+    font-size: 10px; 
   }
 
   .rating img {

@@ -3,7 +3,7 @@ import './Header.css';
 import logo from '../../Image/ffTiYckswWi9iJ3Oj4vRm-transformed.png';
 import searchIcon from '../../Image/logo.svg';
 import hamburgerIcon from '../../Image/icons8-line-width-24-removebg-preview.png';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,7 +35,7 @@ export const Header = () => {
       <div className='left-container'>
         <img className='header-icon' src={logo} alt="Movie Zone Logo" />
         <ul className={`nav-list ${isMenuOpen ? 'open' : ''}`}>
-          <li className='nav-item'>Home</li>
+        <Link to={'/'}><li className='nav-item'>Home</li></Link>
           <li 
             className={`nav-item genre-item ${isGenreOpen ? 'open' : ''}`} 
             onClick={toggleGenre}
