@@ -13,9 +13,9 @@ export default function Middle({ selectedGenre, setSelectedGenre }) {
 
   const filteredMovies = selectedGenre === "allmovies" 
     ? moviedata 
-    : moviedata.filter(movie => movie.gen && movie.gen.toLowerCase() === selectedGenre.toLowerCase());
+    : moviedata.filter(movie => movie.gen && movie.gen.toLowerCase().includes(selectedGenre.toLowerCase()));
 
-  var settings = {
+  const settings = {
     dots: false,
     infinite: true,
     speed: 700,
@@ -59,11 +59,12 @@ export default function Middle({ selectedGenre, setSelectedGenre }) {
           <button onClick={() => genre('action')}>Action</button>
           <button onClick={() => genre('adventure')}>Adventure</button>
           <button onClick={() => genre('animation')}>Animation</button>
-          <button onClick={() => genre('biography')}>Biography</button>
+          <button onClick={() => genre('thriller')}>Thriller</button>
           <button onClick={() => genre('crime')}>Crime</button>
           <button onClick={() => genre('comedy')}>Comedy</button>
-          <button onClick={() => genre('documentary')}>Documentary</button>
+          <button onClick={() => genre('si-fi')}>Si-Fi</button>
           <button onClick={() => genre('drama')}>Drama</button>
+          <button onClick={() => genre('horror')}>Horror</button>
         </li>
       </ul>
       <Slider {...settings}>

@@ -5,6 +5,7 @@ import face from '../../Image/icons8-facebook-logo-50-Photoroom.png';
 import lin from '../../Image/icons8-linkedin-2-30-Photoroom.png';
 import twit from '../../Image/icons8-twitter-50-Photoroom (1).png';
 import logo from '../../Image/ffTiYckswWi9iJ3Oj4vRm-transformed.png';
+import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
@@ -23,9 +24,16 @@ export default function Footer() {
                     <div className="section section-1">
                         <ul>
                             <li>Company</li>
-                            <li>Blog</li>
-                            <li>About us</li>
+                            <Link to={'/Follow-us'}>
+                            <li>Follow us</li>
+                            </Link>
+                           <Link to={'/About-us'}>
+                           <li>About us</li>
+                           </Link>
+                           
+                            <Link to={'/Contact-us'}>
                             <li>Contact us</li>
+                            </Link>
                         </ul>
                     </div>
                     <div className="section section-2">

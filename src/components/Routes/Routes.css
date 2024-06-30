@@ -50,18 +50,19 @@
 
 
 
-.cardx button {
+.cardx a {
   padding: 10px 80px;
   font-size: 20px;
   background-color: red;
   color: white;
   border: none;
+  outline: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
-.cardx button:hover {
+.cardx a:hover {
   background-color: rgb(141, 12, 12);
 }
 

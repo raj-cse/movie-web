@@ -1,22 +1,16 @@
 import React, { useState } from "react";
 import './Card.css';
 import rate from '../../Image/icons8-rating-30.png';
-import moviedata from '../../data';
+import moviedata from '../../data'; // Correct import path
 import gif from '../../Image/icons8-movie.gif';
-import searchIcon from '../../Image/icons8-search-30.png';
 import previous from '../../Image/icons8-previous-50 (3).png';
 import next from '../../Image/icons8-next-50 (1).png';
 import { Link } from "react-router-dom";
 
 export default function Card({ selectedGenre }) {
-    console.log("Selected category:", selectedGenre);
-    console.log("Available movies:", moviedata);
-
     const filtermovie = moviedata.filter((movie) => (
-        selectedGenre === 'allmovies' || movie.gen === selectedGenre
+        selectedGenre === 'allmovies' || (movie.gen && movie.gen.toLowerCase().includes(selectedGenre.toLowerCase()))
     ));
-
-    console.log("Filtered movies:", filtermovie);
 
     const Cardsperpage = 28;
     const [currentPage, setCurrentPage] = useState(1);
@@ -44,7 +38,6 @@ export default function Card({ selectedGenre }) {
                     <img src={gif} alt="Movies" />
                     <h1>Movies</h1>
                 </div>
-               
             </div>
             <div className="big">
                 {currentData.map((v, i) => (

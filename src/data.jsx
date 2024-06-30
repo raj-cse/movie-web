@@ -1,475 +1,496 @@
-export default [
-    
-        {
-            "uid": "Joker: Folie a Deux",
-            "gen": "action",
-            "title": "Joker: Folie a Deux",
-            "description": "Sequel to the critically acclaimed film Joker, exploring the next chapter in the life of Arthur Fleck.",
-            "year": 2024,
-            "rating": "8.5",
-            "dlink": "https://example.com/joker-2",
-            "himg": "https://www.example.com/images/joker-2-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2022/10/joker-2-poster-400x600.jpg",
-            "images": [
-                "https://www.joblo.com/wp-content/uploads/2022/10/joker-2-poster-400x600.jpg",
-                
-            ]
-        },
-        {
-            "uid": "kingdom-of-the-planet-of-apes",
-            "gen": "action",
-            "title": "Kingdom of the Planet of Apes",
-            "description": "A new chapter in the Planet of the Apes saga, exploring the rise of intelligent apes.",
-            "year": 2024,
-            "rating": "8.2",
-            "dlink": "https://example.com/kingdom-of-the-planet-of-apes",
-            "himg": "https://www.example.com/images/kingdom-of-the-planet-of-apes-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2023/11/Kingdom-of-the-Planet-of-the-Apes-400x600.jpg",
-            "images": [
-                "https://www.example.com/images/kingdom-of-the-planet-of-apes-1.jpg",
-                "https://www.example.com/images/kingdom-of-the-planet-of-apes-2.jpg"
-            ]
-        },
-        {
-            "uid": "the-garfield-movie",
-            "gen": "action",
-            "title": "The Garfield Movie",
-            "description": "A new animated adventure featuring Garfield, the lazy and lovable cat.",
-            "year": 2024,
-            "rating": "7.0",
-            "dlink": "https://example.com/the-garfield-movie",
-            "himg": "https://www.example.com/images/the-garfield-movie-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2023/12/The-garfield-movie-poster-400x600.jpg",
-            "images": [
-                "https://www.example.com/images/the-garfield-movie-1.jpg",
-                "https://www.example.com/images/the-garfield-movie-2.jpg"
-            ]
-        },
-        {
-            "uid": "deadpool-wolverine",
-            "title": "Deadpool & Wolverine",
-            "description": "An unlikely duo teams up in this action-packed, irreverent adventure.",
-            "year": 2024,
-            "rating": "9.0",
-            "dlink": "https://example.com/deadpool-wolverine",
-            "himg": "https://www.example.com/images/deadpool-wolverine-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2022/12/deadpool-3-new-poster-400x600.jpg",
-            "images": [
-                "https://www.example.com/images/deadpool-wolverine-1.jpg",
-                "https://www.example.com/images/deadpool-wolverine-2.jpg"
-            ]
-        },
-        {
-            "uid": "bad-boys-ride-or-die",
-            "title": "Bad Boys: Ride or Die",
-            "description": "The next installment in the Bad Boys franchise, featuring high-speed chases and explosive action.",
-            "year": 2024,
-            "rating": "7.8",
-            "dlink": "https://example.com/bad-boys-ride-or-die",
-            "himg": "https://www.example.com/images/bad-boys-ride-or-die-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2022/12/bad-boys-ride-or-die-poster-400x600.jpg",
-            "images": [
-                "https://www.example.com/images/bad-boys-ride-or-die-1.jpg",
-                "https://www.example.com/images/bad-boys-ride-or-die-2.jpg"
-            ]
-        },
-        {
-            "uid": "beverly-hills-cop-axel-f",
-            "title": "Beverly Hills Cop: Axel F",
-            "description": "Axel Foley returns in a new adventure set in the heart of Beverly Hills.",
-            "year": 2024,
-            "rating": "7.5",
-            "dlink": "https://example.com/beverly-hills-cop-axel-f",
-            "himg": "https://www.example.com/images/beverly-hills-cop-axel-f-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2022/09/IMG_1748-400x600.jpeg",
-            "images": [
-                "https://www.example.com/images/beverly-hills-cop-axel-f-1.jpg",
-                "https://www.example.com/images/beverly-hills-cop-axel-f-2.jpg"
-            ]
-        },
-        {
-            "uid": "the-strangers-chapter-1",
-            "title": "The Strangers: Chapter 1",
-            "description": "A chilling new horror film that delves into the terrifying world of The Strangers.",
-            "year": 2024,
-            "rating": "6.9",
-            "dlink": "https://example.com/the-strangers-chapter-1",
-            "himg": "https://www.example.com/images/the-strangers-chapter-1-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2023/12/IMG_1596-400x600.jpeg",
-            "images": [
-                "https://www.example.com/images/the-strangers-chapter-1-1.jpg",
-                "https://www.example.com/images/the-strangers-chapter-1-2.jpg"
-            ]
-        },
-        {
-            "uid": "the-fall-guy",
-            "title": "The Fall Guy",
-            "description": "A stuntman gets caught up in a dangerous plot in this thrilling action film.",
-            "year": 2024,
-            "rating": "7.3",
-            "dlink": "https://example.com/the-fall-guy",
-            "himg": "https://www.example.com/images/the-fall-guy-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2023/11/the-fall-guy-new-poster-400x600.jpg",
-            "images": [
-                "https://www.example.com/images/the-fall-guy-1.jpg",
-                "https://www.example.com/images/the-fall-guy-2.jpg"
-            ]
-        },
-        {
-            "uid": "hitman",
-            "title": "Hitman",
-            "description": "A highly skilled assassin faces his most challenging mission yet.",
-            "year": 2024,
-            "rating": "8.1",
-            "dlink": "https://example.com/hitman",
-            "himg": "https://www.example.com/images/hitman-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2023/09/hit-man-movie-poster-400x600.jpg",
-            "images": [
-                "https://www.example.com/images/hitman-1.jpg",
-                "https://www.example.com/images/hitman-2.jpg"
-            ]
-        },
-        {
-            "uid": "the-exorcism",
-            "title": "The Exorcism",
-            "description": "A gripping horror story about a priest confronting a powerful demonic force.",
-            "year": 2024,
-            "rating": "7.6",
-            "dlink": "https://example.com/the-exorcism",
-            "himg": "https://www.example.com/images/the-exorcism-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/04/IMG_1579-400x600.jpeg",
-            "images": [
-                "https://www.example.com/images/the-exorcism-1.jpg",
-                "https://www.example.com/images/the-exorcism-2.jpg"
-            ]
-        },
-        {
-            "uid": "inside-out-2",
-            "title": "Inside Out 2",
-            "description": "The emotions return in a new adventure inside the mind of a teenager.",
-            "year": 2024,
-            "rating": "8.3",
-            "dlink": "https://example.com/inside-out-2",
-            "himg": "https://www.example.com/images/inside-out-2-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2023/11/inside-out-2-poster-1-400x600.jpg",
-            "images": [
-                "https://www.example.com/images/inside-out-2-1.jpg",
-                "https://www.example.com/images/inside-out-2-2.jpg"
-            ]
-        },
-        {
-            "uid": "despicable-me-4",
-            "title": "Despicable Me 4",
-            "description": "Gru and his minions return for another fun-filled adventure.",
-            "year": 2024,
-            "rating": "7.4",
-            "dlink": "https://example.com/despicable-me-4",
-            "himg": "https://www.example.com/images/despicable-me-4-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2022/02/IMG_1611-400x600.jpeg",
-            "images": [
-                "https://www.example.com/images/despicable-me-4-1.jpg",
-                "https://www.example.com/images/despicable-me-4-2.jpg"
-            ]
-        },
-        {
-            "uid": "kill",
-            "title": "Kill",
-            "description": "A suspenseful thriller about a detective on the hunt for a serial killer.",
-            "year": 2024,
-            "rating": "7.9",
-            "dlink": "https://example.com/kill",
-            "himg": "https://www.example.com/images/kill-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/06/IMG_1765-400x600.jpeg",
-            "images": [
-                "https://www.example.com/images/kill-1.jpg",
-                "https://www.example.com/images/kill-2.jpg"
-            ]
-        },
-        {
-            "uid": "twisters",
-            "title": "Twisters",
-            "description": "A group of storm chasers face deadly tornadoes in this high-stakes disaster film.",
-            "year": 2024,
-            "rating": "7.7",
-            "dlink": "https://example.com/twisters",
-            "himg": "https://www.example.com/images/twisters-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2022/12/IMG_1610-400x600.jpeg",
-            "images": [
-                "https://www.example.com/images/twisters-1.jpg",
-                "https://www.example.com/images/twisters-2.jpg"
-            ]
-        },
-        {
-            "uid": "venom-the-last-dance",
-            "title": "Venom: The Last Dance",
-            "description": "Venom faces new challenges in this action-packed sequel.",
-            "year": 2024,
-            "rating": "8.0",
-            "dlink": "https://example.com/venom-the-last-dance",
-            "himg": "https://www.example.com/images/venom-the-last-dance-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2022/10/venom-the-last-dance-400x600.jpg",
-            "images": [
-                "https://www.example.com/images/venom-the-last-dance-1.jpg",
-                "https://www.example.com/images/venom-the-last-dance-2.jpg"
-            ]
-        },
-        {
-            "uid": "borderlands",
-            "title": "Borderlands",
-            "description": "Based on the popular video game series, a group of vault hunters search for treasure on Pandora.",
-            "year": 2024,
-            "rating": "7.8",
-            "dlink": "https://example.com/borderlands",
-            "himg": "https://www.example.com/images/borderlands-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2021/01/borderlands-new-poster-400x600.jpg",
-            "images": [
-                "https://www.example.com/images/borderlands-1.jpg",
-                "https://www.example.com/images/borderlands-2.jpg"
-            ]
-        },
-        {
-            "uid": "the-crow",
-            "title": "The Crow",
-            "description": "A dark and gritty reboot of the cult classic film.",
-            "year": 2024,
-            "rating": "7.2",
-            "dlink": "https://example.com/the-crow",
-            "himg": "https://www.example.com/images/the-crow-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/02/the-crow-2024-poster-400x600.jpg",
-            "images": [
-                "https://www.example.com/images/the-crow-1.jpg",
-                "https://www.example.com/images/the-crow-2.jpg"
-            ]
-        },
-        {
-            "uid": "transformers-one",
-            "title": "Transformers One",
-            "description": "The latest installment in the Transformers franchise, featuring epic battles between Autobots and Decepticons.",
-            "year": 2024,
-            "rating": "7.5",
-            "dlink": "https://example.com/transformers-one",
-            "himg": "https://www.example.com/images/transformers-one-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2023/05/IMG_1528-400x600.webp",
-            "images": [
-                "https://www.example.com/images/transformers-one-1.jpg",
-                "https://www.example.com/images/transformers-one-2.jpg"
-            ]
-        },
-        {
-            "uid": "the-wild-robot",
-            "title": "The Wild Robot",
-            "description": "An animated adventure about a robot who finds herself in the wilderness and must learn to survive.",
-            "year": 2024,
-            "rating": "7.4",
-            "dlink": "https://example.com/the-wild-robot",
-            "himg": "https://www.example.com/images/the-wild-robot-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/03/the-wild-robot-movie-400x600.jpg",
-            "images": [
-                "https://www.example.com/images/the-wild-robot-1.jpg",
-                "https://www.example.com/images/the-wild-robot-2.jpg"
-            ]
-        },
-        {
-            "uid": "smile-2",
-            "title": "Smile 2",
-            "description": "A sequel to the horror movie Smile, continuing the terrifying story.",
-            "year": 2024,
-            "rating": "7.1",
-            "dlink": "https://example.com/smile-2",
-            "himg": "https://www.example.com/images/smile-2-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/01/smile-2-trailer-400x600.jpg",
-            "images": [
-              "https://www.example.com/images/smile-2-1.jpg",
-              "https://www.example.com/images/smile-2-2.jpg"
-            ]
-          },
-          {
-            "uid": "mufasa-the-lion-king",
-            "title": "Mufasa: The Lion King",
-            "description": "A prequel to The Lion King, focusing on the early life of Mufasa.",
-            "year": 2024,
-            "rating": "8.0",
-            "dlink": "https://example.com/mufasa-the-lion-king",
-            "himg": "https://www.example.com/images/mufasa-the-lion-king-main.jpg",
-            "thumbnail": "	https://www.joblo.com/wp-content/uploads/2023/12/mufasa-poster-400x600.jpg",
-            "images": [
-              "https://www.example.com/images/mufasa-the-lion-king-1.jpg",
-              "https://www.example.com/images/mufasa-the-lion-king-2.jpg"
-            ]
-          },
-          {
-            "uid": "kraven-the-hunter",
-            "title": "Kraven the Hunter",
-            "description": "A film about the iconic Marvel antihero, Kraven the Hunter.",
-            "year": 2024,
-            "rating": "6.8",
-            "dlink": "https://example.com/kraven-the-hunter",
-            "himg": "https://www.example.com/images/kraven-the-hunter-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2022/05/kraven-the-hunter-poster-400x600.jpg",
-            "images": [
-              "https://www.example.com/images/kraven-the-hunter-1.jpg",
-              "https://www.example.com/images/kraven-the-hunter-2.jpg"
-            ]
-          },
-          {
-            "uid": "nightbitch",
-            "title": "Nightbitch",
-            "description": "A dark comedy about a mother who believes she's becoming a dog.",
-            "year": 2024,
-            "rating": "7.5",
-            "dlink": "https://example.com/nightbitch",
-            "himg": "https://www.example.com/images/nightbitch-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/05/nightbitch-poster-400x600.jpg",
-            "images": [
-              "https://www.example.com/images/nightbitch-1.jpg",
-              "https://www.example.com/images/nightbitch-2.jpg"
-            ]
-          },
-          {
-            "uid": "paddington-in-peru",
-            "title": "Paddington in Peru",
-            "description": "Paddington Bear goes on an adventure to his homeland, Peru.",
-            "year": 2024,
-            "rating": "8.3",
-            "dlink": "https://example.com/paddington-in-peru",
-            "himg": "https://www.example.com/images/paddington-in-peru-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2022/06/IMG_1786-400x600.jpeg",
-            "images": [
-              "https://www.example.com/images/paddington-in-peru-1.jpg",
-              "https://www.example.com/images/paddington-in-peru-2.jpg"
-            ]
-          },
-          {
-            "uid": "madame-web",
-            "title": "Madame Web",
-            "description": "A superhero film centered on the character Madame Web from Marvel Comics.",
-            "year": 2024,
-            "rating": "7.0",
-            "dlink": "https://example.com/madame-web",
-            "himg": "https://www.example.com/images/madame-web-main.jpg",
-            "thumbnail": "	https://www.joblo.com/wp-content/uploads/2022/08/madame-web-poster-2-400x600.jpg",
-            "images": [
-              "https://www.example.com/images/madame-web-1.jpg",
-              "https://www.example.com/images/madame-web-2.jpg"
-            ]
-          },
-          {
-            "uid": "spaceman",
-            "title": "Spaceman",
-            "description": "A sci-fi adventure about a man who travels to space to find a new home for humanity.",
-            "year": 2024,
-            "rating": "7.6",
-            "dlink": "https://example.com/spaceman",
-            "himg": "https://www.example.com/images/spaceman-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/01/spaceman-poster-400x600.jpg",
-            "images": [
-              "https://www.example.com/images/spaceman-1.jpg",
-              "https://www.example.com/images/spaceman-2.jpg"
-            ]
-          },
-          {
-            "uid": "damsel",
-            "title": "Damsel",
-            "description": "A fantasy film about a princess who must save herself from danger.",
-            "year": 2024,
-            "rating": "7.2",
-            "dlink": "https://example.com/damsel",
-            "himg": "https://www.example.com/images/damsel-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/01/damsel-season4-400x600.jpg",
-            "images": [
-              "https://www.example.com/images/damsel-1.jpg",
-              "https://www.example.com/images/damsel-2.jpg"
-            ]
-          },
-          {
-            "uid": "cabrini",
-            "title": "Cabrini",
-            "description": "A historical drama about the life of Saint Frances Cabrini.",
-            "year": 2024,
-            "rating": "8.1",
-            "dlink": "https://example.com/cabrini",
-            "himg": "https://www.example.com/images/cabrini-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/02/cabrini-movie-400x600.jpg",
-            "images": [
-              "https://www.example.com/images/cabrini-1.jpg",
-              "https://www.example.com/images/cabrini-2.jpg"
-            ]
-          },
-          {
-            "uid": "imaginary",
-            "title": "Imaginary",
-            "description": "A thriller about a child's imaginary friend coming to life.",
-            "year": 2024,
-            "rating": "7.3",
-            "dlink": "https://example.com/imaginary",
-            "himg": "https://www.example.com/images/imaginary-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/01/imaginary-poster-400x600.jpg",
-            "images": [
-              "https://www.example.com/images/imaginary-1.jpg",
-              "https://www.example.com/images/imaginary-2.jpg"
-            ]
-          },
-          {
-            "uid": "ghostbusters-frozen-empire",
-            "title": "Ghostbusters: Frozen Empire",
-            "description": "The Ghostbusters face a new threat from a frozen dimension.",
-            "year": 2024,
-            "rating": "7.7",
-            "dlink": "https://example.com/ghostbusters-frozen-empire",
-            "himg": "https://www.example.com/images/ghostbusters-frozen-empire-main.jpg",
-            "thumbnail": "	https://www.joblo.com/wp-content/uploads/2023/06/new-ghostbusters-poster-400x600.jpg",
-            "images": [
-              "https://www.example.com/images/ghostbusters-frozen-empire-1.jpg",
-              "https://www.example.com/images/ghostbusters-frozen-empire-2.jpg"
-            ]
-          },
-          {
-            "uid": "godzilla-x-kong-the-new-empire",
-            "title": "Godzilla x Kong: The New Empire",
-            "description": "Godzilla and King Kong team up to face a new monstrous threat.",
-            "year": 2024,
-            "rating": "7.9",
-            "dlink": "https://example.com/godzilla-x-kong-the-new-empire",
-            "himg": "https://www.example.com/images/godzilla-x-kong-the-new-empire-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2023/08/godzilla-vs-kong-2-400x600.jpg",
-            "images": [
-              "https://www.example.com/images/godzilla-x-kong-the-new-empire-1.jpg",
-              "https://www.example.com/images/godzilla-x-kong-the-new-empire-2.jpg"
-            ]
-          },
-          {
-            "uid": "sting",
-            "title": "Sting",
-            "description": "A drama about the rise and fall of a famous musician named Sting.",
-            "year": 2024,
-            "rating": "7.0",
-            "dlink": "https://example.com/sting",
-            "himg": "https://www.example.com/images/sting-main.jpg",
-            "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/02/sting-poster-1-400x600.jpg",
-            "images": [
-              "https://www.example.com/images/sting-1.jpg",
-              "https://www.example.com/images/sting-2.jpg"
-            ]
-          },
-          {
-            "uid": "kungfu-panda-4",
-            "title": "Kung Fu Panda 4",
-            "description": "Po and the Furious Five return for another epic adventure filled with martial arts, humor, and heart.",
-            "year": 2024,
-            "rating": "7.8",
-            "dlink": "https://example.com/kungfu-panda-4",
-            "himg": "https://www.example.com/images/kungfu-panda-4-main.jpg",
-            "thumbnail": "	https://www.joblo.com/wp-content/uploads/2023/12/kung-fu-panda-4-poster-400x600.jpg",
-            "images": [
-              "https://www.example.com/images/kungfu-panda-4-1.jpg",
-              "https://www.example.com/images/kungfu-panda-4-2.jpg"
-            ]
-          },
-   
-   
-   
-   
-   
+const moviedata =  [
+
+    {
+        "uid": "Joker: Folie a Deux",
+        "gen": "action",
+        "title": "Joker: Folie a Deux",
+        "description": "Sequel to the critically acclaimed film Joker, exploring the next chapter in the life of Arthur Fleck.",
+        "year": 2024,
+        "rating": "8.5",
+        "dlink": "https://example.com/joker-2",
+        "himg": "https://www.example.com/images/joker-2-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2022/10/joker-2-poster-400x600.jpg",
+        "images": [
+            "https://www.joblo.com/wp-content/uploads/2022/10/joker-2-poster-400x600.jpg",
+
+        ]
+    },
+    {
+        "uid": "kingdom-of-the-planet-of-apes",
+        "gen": "action",
+        "title": "Kingdom of the Planet of Apes",
+        "description": "A new chapter in the Planet of the Apes saga, exploring the rise of intelligent apes.",
+        "year": 2024,
+        "rating": "8.2",
+        "dlink": "https://example.com/kingdom-of-the-planet-of-apes",
+        "himg": "https://www.example.com/images/kingdom-of-the-planet-of-apes-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2023/11/Kingdom-of-the-Planet-of-the-Apes-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/kingdom-of-the-planet-of-apes-1.jpg",
+            "https://www.example.com/images/kingdom-of-the-planet-of-apes-2.jpg"
+        ]
+    },
+    {
+        "uid": "the-garfield-movie",
+        "gen": "animation,adventure,comedy",
+        "title": "The Garfield Movie",
+        "description": "A new animated adventure featuring Garfield, the lazy and lovable cat.",
+        "year": 2024,
+        "rating": "7.0",
+        "dlink": "https://example.com/the-garfield-movie",
+        "himg": "https://www.example.com/images/the-garfield-movie-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2023/12/The-garfield-movie-poster-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/the-garfield-movie-1.jpg",
+            "https://www.example.com/images/the-garfield-movie-2.jpg"
+        ]
+    },
+    {
+        "uid": "deadpool-wolverine",
+        "gen": "action,comedy",
+        "title": "Deadpool & Wolverine",
+        "description": "An unlikely duo teams up in this action-packed, irreverent adventure.",
+        "year": 2024,
+        "rating": "9.0",
+        "dlink": "https://example.com/deadpool-wolverine",
+        "himg": "https://www.example.com/images/deadpool-wolverine-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2022/12/deadpool-3-new-poster-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/deadpool-wolverine-1.jpg",
+            "https://www.example.com/images/deadpool-wolverine-2.jpg"
+        ]
+    },
+    {
+        "uid": "bad-boys-ride-or-die",
+        "gen": "action,adventure,comedy",
+        "title": "Bad Boys: Ride or Die",
+        "description": "The next installment in the Bad Boys franchise, featuring high-speed chases and explosive action.",
+        "year": 2024,
+        "rating": "7.8",
+        "dlink": "https://example.com/bad-boys-ride-or-die",
+        "himg": "https://www.example.com/images/bad-boys-ride-or-die-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2022/12/bad-boys-ride-or-die-poster-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/bad-boys-ride-or-die-1.jpg",
+            "https://www.example.com/images/bad-boys-ride-or-die-2.jpg"
+        ]
+    },
+    {
+        "uid": "beverly-hills-cop-axel-f",
+        "gen": "action,crime,comedy",
+        "title": "Beverly Hills Cop: Axel F",
+        "description": "Axel Foley returns in a new adventure set in the heart of Beverly Hills.",
+        "year": 2024,
+        "rating": "7.5",
+        "dlink": "https://example.com/beverly-hills-cop-axel-f",
+        "himg": "https://www.example.com/images/beverly-hills-cop-axel-f-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2022/09/IMG_1748-400x600.jpeg",
+        "images": [
+            "https://www.example.com/images/beverly-hills-cop-axel-f-1.jpg",
+            "https://www.example.com/images/beverly-hills-cop-axel-f-2.jpg"
+        ]
+    },
+    {
+        "uid": "the-strangers-chapter-1",
+        "gen": "horror",
+        "title": "The Strangers: Chapter 1",
+        "description": "A chilling new horror film that delves into the terrifying world of The Strangers.",
+        "year": 2024,
+        "rating": "6.9",
+        "dlink": "https://example.com/the-strangers-chapter-1",
+        "himg": "https://www.example.com/images/the-strangers-chapter-1-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2023/12/IMG_1596-400x600.jpeg",
+        "images": [
+            "https://www.example.com/images/the-strangers-chapter-1-1.jpg",
+            "https://www.example.com/images/the-strangers-chapter-1-2.jpg"
+        ]
+    },
+    {
+        "uid": "the-fall-guy",
+        "gen": "action,drama,comedy",
+        "title": "The Fall Guy",
+        "description": "A stuntman gets caught up in a dangerous plot in this thrilling action film.",
+        "year": 2024,
+        "rating": "7.3",
+        "dlink": "https://example.com/the-fall-guy",
+        "himg": "https://www.example.com/images/the-fall-guy-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2023/11/the-fall-guy-new-poster-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/the-fall-guy-1.jpg",
+            "https://www.example.com/images/the-fall-guy-2.jpg"
+        ]
+    },
+    {
+        "uid": "hitman",
+        "gen": "crime,comedy",
+        "title": "Hitman",
+        "description": "A highly skilled assassin faces his most challenging mission yet.",
+        "year": 2024,
+        "rating": "8.1",
+        "dlink": "https://example.com/hitman",
+        "himg": "https://www.example.com/images/hitman-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2023/09/hit-man-movie-poster-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/hitman-1.jpg",
+            "https://www.example.com/images/hitman-2.jpg"
+        ]
+    },
+    {
+        "uid": "the-exorcism",
+        "gen": "horror",
+        "title": "The Exorcism",
+        "description": "A gripping horror story about a priest confronting a powerful demonic force.",
+        "year": 2024,
+        "rating": "7.6",
+        "dlink": "https://example.com/the-exorcism",
+        "himg": "https://www.example.com/images/the-exorcism-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/04/IMG_1579-400x600.jpeg",
+        "images": [
+            "https://www.example.com/images/the-exorcism-1.jpg",
+            "https://www.example.com/images/the-exorcism-2.jpg"
+        ]
+    },
+    {
+        "uid": "inside-out-2",
+        "gen": "animation,adventure,comedy",
+        "title": "Inside Out 2",
+        "description": "The emotions return in a new adventure inside the mind of a teenager.",
+        "year": 2024,
+        "rating": "8.3",
+        "dlink": "https://example.com/inside-out-2",
+        "himg": "https://www.example.com/images/inside-out-2-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2023/11/inside-out-2-poster-1-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/inside-out-2-1.jpg",
+            "https://www.example.com/images/inside-out-2-2.jpg"
+        ]
+    },
+    {
+        "uid": "despicable-me-4",
+        "gen": "animation,adventure,comedy",
+        "title": "Despicable Me 4",
+        "description": "Gru and his minions return for another fun-filled adventure.",
+        "year": 2024,
+        "rating": "7.4",
+        "dlink": "https://example.com/despicable-me-4",
+        "himg": "https://www.example.com/images/despicable-me-4-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2022/02/IMG_1611-400x600.jpeg",
+        "images": [
+            "https://www.example.com/images/despicable-me-4-1.jpg",
+            "https://www.example.com/images/despicable-me-4-2.jpg"
+        ]
+    },
+    {
+        "uid": "kill",
+        "gen": "action,drama,crime",
+        "title": "Kill",
+        "description": "A suspenseful thriller about a detective on the hunt for a serial killer.",
+        "year": 2024,
+        "rating": "7.9",
+        "dlink": "https://example.com/kill",
+        "himg": "https://www.example.com/images/kill-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/06/IMG_1765-400x600.jpeg",
+        "images": [
+            "https://www.example.com/images/kill-1.jpg",
+            "https://www.example.com/images/kill-2.jpg"
+        ]
+    },
+    {
+        "uid": "twisters",
+        "gen": "action,adventure",
+        "title": "Twisters",
+        "description": "A group of storm chasers face deadly tornadoes in this high-stakes disaster film.",
+        "year": 2024,
+        "rating": "7.7",
+        "dlink": "https://example.com/twisters",
+        "himg": "https://www.example.com/images/twisters-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2022/12/IMG_1610-400x600.jpeg",
+        "images": [
+            "https://www.example.com/images/twisters-1.jpg",
+            "https://www.example.com/images/twisters-2.jpg"
+        ]
+    },
+    {
+        "uid": "venom-the-last-dance",
+        "gen": "animation,adventure",
+        "title": "Venom: The Last Dance",
+        "description": "Venom faces new challenges in this action-packed sequel.",
+        "year": 2024,
+        "rating": "8.0",
+        "dlink": "https://example.com/venom-the-last-dance",
+        "himg": "https://www.example.com/images/venom-the-last-dance-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2022/10/venom-the-last-dance-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/venom-the-last-dance-1.jpg",
+            "https://www.example.com/images/venom-the-last-dance-2.jpg"
+        ]
+    },
+    {
+        "uid": "borderlands",
+        "gen": "action,adventure,comedy",
+        "title": "Borderlands",
+        "description": "Based on the popular video game series, a group of vault hunters search for treasure on Pandora.",
+        "year": 2024,
+        "rating": "7.8",
+        "dlink": "https://example.com/borderlands",
+        "himg": "https://www.example.com/images/borderlands-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2021/01/borderlands-new-poster-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/borderlands-1.jpg",
+            "https://www.example.com/images/borderlands-2.jpg"
+        ]
+    },
+    {
+        "uid": "the-crow",
+        "gen": "action,crime",
+        "title": "The Crow",
+        "description": "A dark and gritty reboot of the cult classic film.",
+        "year": 2024,
+        "rating": "7.2",
+        "dlink": "https://example.com/the-crow",
+        "himg": "https://www.example.com/images/the-crow-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/02/the-crow-2024-poster-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/the-crow-1.jpg",
+            "https://www.example.com/images/the-crow-2.jpg"
+        ]
+    },
+    {
+        "uid": "transformers-one",
+        "gen": "animation,adventure,action",
+        "title": "Transformers One",
+        "description": "The latest installment in the Transformers franchise, featuring epic battles between Autobots and Decepticons.",
+        "year": 2024,
+        "rating": "7.5",
+        "dlink": "https://example.com/transformers-one",
+        "himg": "https://www.example.com/images/transformers-one-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2023/05/IMG_1528-400x600.webp",
+        "images": [
+            "https://www.example.com/images/transformers-one-1.jpg",
+            "https://www.example.com/images/transformers-one-2.jpg"
+        ]
+    },
+    {
+        "uid": "the-wild-robot",
+        "gen": "animation,adventure,comedy",
+        "title": "The Wild Robot",
+        "description": "An animated adventure about a robot who finds herself in the wilderness and must learn to survive.",
+        "year": 2024,
+        "rating": "7.4",
+        "dlink": "https://example.com/the-wild-robot",
+        "himg": "https://www.example.com/images/the-wild-robot-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/03/the-wild-robot-movie-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/the-wild-robot-1.jpg",
+            "https://www.example.com/images/the-wild-robot-2.jpg"
+        ]
+    },
+    {
+        "uid": "smile-2",
+        "gen": "horror",
+        "title": "Smile 2",
+        "description": "A sequel to the horror movie Smile, continuing the terrifying story.",
+        "year": 2024,
+        "rating": "7.1",
+        "dlink": "https://example.com/smile-2",
+        "himg": "https://www.example.com/images/smile-2-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/01/smile-2-trailer-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/smile-2-1.jpg",
+            "https://www.example.com/images/smile-2-2.jpg"
+        ]
+    },
+    {
+        "uid": "mufasa-the-lion-king",
+        "gen": "animation,adventure,darma",
+        "title": "Mufasa: The Lion King",
+        "description": "A prequel to The Lion King, focusing on the early life of Mufasa.",
+        "year": 2024,
+        "rating": "8.0",
+        "dlink": "https://example.com/mufasa-the-lion-king",
+        "himg": "https://www.example.com/images/mufasa-the-lion-king-main.jpg",
+        "thumbnail": "	https://www.joblo.com/wp-content/uploads/2023/12/mufasa-poster-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/mufasa-the-lion-king-1.jpg",
+            "https://www.example.com/images/mufasa-the-lion-king-2.jpg"
+        ]
+    },
+    {
+        "uid": "kraven-the-hunter",
+        "gen": "animation,adventure",
+        "title": "Kraven the Hunter",
+        "description": "A film about the iconic Marvel antihero, Kraven the Hunter.",
+        "year": 2024,
+        "rating": "6.8",
+        "dlink": "https://example.com/kraven-the-hunter",
+        "himg": "https://www.example.com/images/kraven-the-hunter-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2022/05/kraven-the-hunter-poster-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/kraven-the-hunter-1.jpg",
+            "https://www.example.com/images/kraven-the-hunter-2.jpg"
+        ]
+    },
+    {
+        "uid": "nightbitch",
+        "gen": "horror,darma,comedy",
+        "title": "Nightbitch",
+        "description": "A dark comedy about a mother who believes she's becoming a dog.",
+        "year": 2024,
+        "rating": "7.5",
+        "dlink": "https://example.com/nightbitch",
+        "himg": "https://www.example.com/images/nightbitch-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/05/nightbitch-poster-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/nightbitch-1.jpg",
+            "https://www.example.com/images/nightbitch-2.jpg"
+        ]
+    },
+    {
+        "uid": "paddington-in-peru",
+        "title": "Paddington in Peru",
+        "description": "Paddington Bear goes on an adventure to his homeland, Peru.",
+        "year": 2024,
+        "rating": "8.3",
+        "dlink": "https://example.com/paddington-in-peru",
+        "himg": "https://www.example.com/images/paddington-in-peru-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2022/06/IMG_1786-400x600.jpeg",
+        "images": [
+            "https://www.example.com/images/paddington-in-peru-1.jpg",
+            "https://www.example.com/images/paddington-in-peru-2.jpg"
+        ]
+    },
+    {
+        "uid": "madame-web",
+        "gen": "action,adventure",
+        "title": "Madame Web",
+        "description": "A superhero film centered on the character Madame Web from Marvel Comics.",
+        "year": 2024,
+        "rating": "7.0",
+        "dlink": "https://example.com/madame-web",
+        "himg": "https://www.example.com/images/madame-web-main.jpg",
+        "thumbnail": "	https://www.joblo.com/wp-content/uploads/2022/08/madame-web-poster-2-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/madame-web-1.jpg",
+            "https://www.example.com/images/madame-web-2.jpg"
+        ]
+    },
+    {
+        "uid": "spaceman",
+        "title": "Spaceman",
+        "description": "A sci-fi adventure about a man who travels to space to find a new home for humanity.",
+        "year": 2024,
+        "rating": "7.6",
+        "dlink": "https://example.com/spaceman",
+        "himg": "https://www.example.com/images/spaceman-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/01/spaceman-poster-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/spaceman-1.jpg",
+            "https://www.example.com/images/spaceman-2.jpg"
+        ]
+    },
+    {
+        "uid": "damsel",
+        "title": "Damsel",
+        "description": "A fantasy film about a princess who must save herself from danger.",
+        "year": 2024,
+        "rating": "7.2",
+        "dlink": "https://example.com/damsel",
+        "himg": "https://www.example.com/images/damsel-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/01/damsel-season4-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/damsel-1.jpg",
+            "https://www.example.com/images/damsel-2.jpg"
+        ]
+    },
+    {
+        "uid": "cabrini",
+        "title": "Cabrini",
+        "description": "A historical drama about the life of Saint Frances Cabrini.",
+        "year": 2024,
+        "rating": "8.1",
+        "dlink": "https://example.com/cabrini",
+        "himg": "https://www.example.com/images/cabrini-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/02/cabrini-movie-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/cabrini-1.jpg",
+            "https://www.example.com/images/cabrini-2.jpg"
+        ]
+    },
+    {
+        "uid": "imaginary",
+        "title": "Imaginary",
+        "description": "A thriller about a child's imaginary friend coming to life.",
+        "year": 2024,
+        "rating": "7.3",
+        "dlink": "https://example.com/imaginary",
+        "himg": "https://www.example.com/images/imaginary-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/01/imaginary-poster-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/imaginary-1.jpg",
+            "https://www.example.com/images/imaginary-2.jpg"
+        ]
+    },
+    {
+        "uid": "ghostbusters-frozen-empire",
+        "title": "Ghostbusters: Frozen Empire",
+        "description": "The Ghostbusters face a new threat from a frozen dimension.",
+        "year": 2024,
+        "rating": "7.7",
+        "dlink": "https://example.com/ghostbusters-frozen-empire",
+        "himg": "https://www.example.com/images/ghostbusters-frozen-empire-main.jpg",
+        "thumbnail": "	https://www.joblo.com/wp-content/uploads/2023/06/new-ghostbusters-poster-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/ghostbusters-frozen-empire-1.jpg",
+            "https://www.example.com/images/ghostbusters-frozen-empire-2.jpg"
+        ]
+    },
+    {
+        "uid": "godzilla-x-kong-the-new-empire",
+        "title": "Godzilla x Kong: The New Empire",
+        "description": "Godzilla and King Kong team up to face a new monstrous threat.",
+        "year": 2024,
+        "rating": "7.9",
+        "dlink": "https://example.com/godzilla-x-kong-the-new-empire",
+        "himg": "https://www.example.com/images/godzilla-x-kong-the-new-empire-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2023/08/godzilla-vs-kong-2-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/godzilla-x-kong-the-new-empire-1.jpg",
+            "https://www.example.com/images/godzilla-x-kong-the-new-empire-2.jpg"
+        ]
+    },
+    {
+        "uid": "sting",
+        "title": "Sting",
+        "description": "A drama about the rise and fall of a famous musician named Sting.",
+        "year": 2024,
+        "rating": "7.0",
+        "dlink": "https://example.com/sting",
+        "himg": "https://www.example.com/images/sting-main.jpg",
+        "thumbnail": "https://www.joblo.com/wp-content/uploads/2024/02/sting-poster-1-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/sting-1.jpg",
+            "https://www.example.com/images/sting-2.jpg"
+        ]
+    },
+    {
+        "uid": "kungfu-panda-4",
+        "title": "Kung Fu Panda 4",
+        "description": "Po and the Furious Five return for another epic adventure filled with martial arts, humor, and heart.",
+        "year": 2024,
+        "rating": "7.8",
+        "dlink": "https://example.com/kungfu-panda-4",
+        "himg": "https://www.example.com/images/kungfu-panda-4-main.jpg",
+        "thumbnail": "	https://www.joblo.com/wp-content/uploads/2023/12/kung-fu-panda-4-poster-400x600.jpg",
+        "images": [
+            "https://www.example.com/images/kungfu-panda-4-1.jpg",
+            "https://www.example.com/images/kungfu-panda-4-2.jpg"
+        ]
+    },
+
+
+
+
+
     {
         "uid": "The Marvels",
         "Hero": "Captain America",
@@ -483,7 +504,7 @@ export default [
         "brand": "Al Munakh",
         "category": "fragrances",
         "thumbnail": "https://m.media-amazon.com/images/M/MV5BM2U2YWU5NWMtOGI2Ni00MGMwLWFkNjItMjgyZWMxNjllNTMzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UY2500_.jpg",
-        "himg":"https://i.pinimg.com/564x/aa/3c/df/aa3cdfee58197bd079476f1b03a072e9.jpg",
+        "himg": "https://i.pinimg.com/564x/aa/3c/df/aa3cdfee58197bd079476f1b03a072e9.jpg",
         "images": [
             "https://w0.peakpx.com/wallpaper/724/29/HD-wallpaper-captain-america-captain-america-super-hero.jpg"
         ]
@@ -500,7 +521,7 @@ export default [
         "stock": 114,
         "brand": "Al Munakh",
         "category": "fragrances",
-        "himg":"https://www.pinkvilla.com/images/2022-09/tom_holland_15.jpg",
+        "himg": "https://www.pinkvilla.com/images/2022-09/tom_holland_15.jpg",
         "thumbnail": "https://m.media-amazon.com/images/M/MV5BMDIzM2FlNTctNjAzZi00YzhkLThjYWQtMDY5Njc0NjdmMGVlXkEyXkFqcGdeQXVyMTUzOTcyODA5._V1_FMjpg_UX520_.jpg",
         "images": [
             "https://w0.peakpx.com/wallpaper/115/81/HD-wallpaper-amazing-spider-man-2-amazing-spider-man-amazing-spider-man-2-marvel-sony-spider-man.jpg",
@@ -514,8 +535,8 @@ export default [
         "rating": 7.9,
         "Hero": "Thor",
         "stock": 114,
-        "thumbnail":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aa454069-1f38-4db1-a9e3-75d6b00c42e8/dfx419e-e0adccbd-8451-41dc-8540-bc37986b91c0.jpg/v1/fill/w_748,h_1069,q_70,strp/guardians_of_the_galaxy_vol_3_action_poster_by_akithefull_dfx419e-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgyOSIsInBhdGgiOiJcL2ZcL2FhNDU0MDY5LTFmMzgtNGRiMS1hOWUzLTc1ZDZiMDBjNDJlOFwvZGZ4NDE5ZS1lMGFkY2NiZC04NDUxLTQxZGMtODU0MC1iYzM3OTg2YjkxYzAuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.OAxcpbR9VIc9vaVqZrh79U2ggNW8WjPOP38XxNlAoZg",
-        "himg":"https://ca-times.brightspotcdn.com/dims4/default/812c7f8/2147483647/strip/true/crop/5076x3807+0+0/resize/1200x900!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F8d%2Fe9%2Fde9f3fac4f3a85d28508df65e0e6%2Fny-premiere-of-limitless-with-chris-hemsworth-68062.jpg",
+        "thumbnail": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aa454069-1f38-4db1-a9e3-75d6b00c42e8/dfx419e-e0adccbd-8451-41dc-8540-bc37986b91c0.jpg/v1/fill/w_748,h_1069,q_70,strp/guardians_of_the_galaxy_vol_3_action_poster_by_akithefull_dfx419e-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgyOSIsInBhdGgiOiJcL2ZcL2FhNDU0MDY5LTFmMzgtNGRiMS1hOWUzLTc1ZDZiMDBjNDJlOFwvZGZ4NDE5ZS1lMGFkY2NiZC04NDUxLTQxZGMtODU0MC1iYzM3OTg2YjkxYzAuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.OAxcpbR9VIc9vaVqZrh79U2ggNW8WjPOP38XxNlAoZg",
+        "himg": "https://ca-times.brightspotcdn.com/dims4/default/812c7f8/2147483647/strip/true/crop/5076x3807+0+0/resize/1200x900!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F8d%2Fe9%2Fde9f3fac4f3a85d28508df65e0e6%2Fny-premiere-of-limitless-with-chris-hemsworth-68062.jpg",
         "images": [
             "https://i.pinimg.com/originals/c1/56/2c/c1562cb765f280bb67044031295b1a76.jpg",
         ]
@@ -528,7 +549,7 @@ export default [
         "year": 2022,
         "rating": 6.4,
         "Hero": "Hulk",
-        "himg":"https://www.esquireme.com/cloud/2021/09/08/Mark-Ruffalo.jpg",
+        "himg": "https://www.esquireme.com/cloud/2021/09/08/Mark-Ruffalo.jpg",
         "images": [
             "https://i.pinimg.com/originals/e7/83/d7/e783d72231e782f78fd0a280880a0540.jpg",
         ],
@@ -542,7 +563,7 @@ export default [
         "title": "Thor: Love and Thunder",
         "year": 2022,
         "rating": 6.2,
-        "himg":"https://networthxi.com/wp-content/uploads/2017/05/Scarlett-Johansson-Net-Worth-Age-Height-Husband-Profile-Movies-a.jpg",
+        "himg": "https://networthxi.com/wp-content/uploads/2017/05/Scarlett-Johansson-Net-Worth-Age-Height-Husband-Profile-Movies-a.jpg",
         "images": [
             "https://i.pinimg.com/564x/23/32/7c/23327ca543110ffae03159d9dea91bd4.jpg",
         ],
@@ -557,7 +578,7 @@ export default [
         "year": 2022,
         "rating": 6.7,
         "Hero": "Hawkeye",
-        "himg":"https://cdn.britannica.com/34/218334-050-759D83D7/American-actor-Jeremy-Renner-2017.jpg",
+        "himg": "https://cdn.britannica.com/34/218334-050-759D83D7/American-actor-Jeremy-Renner-2017.jpg",
         "dlink": "https://lively-block-5b85.xipow36551427.workers.dev/1396595121/c626f8f76cfd09326fd095c7ceda2efd8d289402f3c16742fd20f87515d7dfa3964192208b5ba4747aa7029bf5f4704ffdefa0902c34751497add8be64ff6368c19f917442662a30cc1bced25daf02be845ef7ab0d3f9fb000ae3fdf9c619a7371d0bb2c6599dd8569aec7281956b10e1f804e91bd1ac937c9f6e5e33415c946f010f1946b701e6a13af9ef5a0730ee7::71e61173028fb136ec46f1adad866067",
         "images": [
             "https://i.pinimg.com/564x/6c/bc/77/6cbc77cd6ba710531c7cce9f58b9a581.jpg",
@@ -574,7 +595,7 @@ export default [
         "year": 2021,
         "popular": "Spider-Man: No Way Home",
         "Hero": "Black Panther",
-        "himg":"https://www.essence.com/wp-content/uploads/2018/03/1521472877/GettyImages-926976624.jpg",
+        "himg": "https://www.essence.com/wp-content/uploads/2018/03/1521472877/GettyImages-926976624.jpg",
         "images": [
             "https://i.pinimg.com/564x/5d/25/f0/5d25f0eca9681ad1a89eebc5a71e1712.jpg",
         ],
@@ -589,7 +610,7 @@ export default [
         "year": 2021,
         "rating": 6.3,
         "Hero": "Doctor Strange",
-        "himg":"https://m.media-amazon.com/images/M/MV5BMjE0MDkzMDQwOF5BMl5BanBnXkFtZTgwOTE1Mjg1MzE@._V1_.jpg",
+        "himg": "https://m.media-amazon.com/images/M/MV5BMjE0MDkzMDQwOF5BMl5BanBnXkFtZTgwOTE1Mjg1MzE@._V1_.jpg",
         "images": [
             "https://i.pinimg.com/564x/ef/7d/63/ef7d63b35410bdc116f7eb1144f0a515.jpg",
         ],
@@ -604,7 +625,7 @@ export default [
         "dlink": "https://5f61ef50c685a945364a5a3689cd8034.r2.cloudflarestorage.com/hub/2_Shang-Chi%20and%20the%20Legend%20of%20the%20Ten%20Rings%202021%20IMAX%201080p%20DSNP%20WEB-DL%20x265%20HEVC%2010bit%20%5BOrg%20Hindi%20DDP%205.1%20~192Kbps%20%2B%20English%20DDP%205.1%5D%20ESub%20~%20Vegamovi?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=fbc392f436d22304d65f4fbb2d39680b%2F20240509%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20240509T170733Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&response-content-disposition=2_Shang-Chi%20and%20the%20Legend%20of%20the%20Ten%20Rings%202021%20IMAX%201080p%20DSNP%20WEB-DL%20x265%20HEVC%2010bit%20%5BOrg%20Hindi%20DDP%205.1%20~192Kbps%20%2B%20English%20DDP%205.1%5D%20ESub%20~%20Vegamovi&X-Amz-Signature=2cb85fff43c20d6ac4119904e11bdda4221175260fea90e9849147f9848b391f",
         "year": 2021,
         "Hero": "Deadpool",
-        "himg":"https://i.insider.com/5b01ca5f42e1cc72c82d50b4?width=600&format=jpeg&auto=webp",
+        "himg": "https://i.insider.com/5b01ca5f42e1cc72c82d50b4?width=600&format=jpeg&auto=webp",
         "images": [
             "https://i.pinimg.com/564x/17/d3/4c/17d34c7da196f155d4ecc0c85b8cdd3d.jpg",
 
@@ -622,9 +643,9 @@ export default [
         "year": 2019,
         "rating": 8.4,
         "Hero": "Ant-Man",
-        "himg":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Paul_Rudd_%28cropped%29_2.jpg/640px-Paul_Rudd_%28cropped%29_2.jpg",
+        "himg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Paul_Rudd_%28cropped%29_2.jpg/640px-Paul_Rudd_%28cropped%29_2.jpg",
         "images": [
-            "https://i.pinimg.com/564x/7f/9d/df/7f9ddf2ba19e4a66420ecca261668df3.jpg",  
+            "https://i.pinimg.com/564x/7f/9d/df/7f9ddf2ba19e4a66420ecca261668df3.jpg",
         ],
         "description": "Avengers: Endgame is the epic culmination of the Marvel Cinematic Universe, as the surviving heroes grapple with the aftermath of Thanos' devastating snap. With the fate of the universe at stake, the Avengers embark on a daring mission through time to gather the Infinity Stones and undo the Mad Titan's actions. Packed with emotional reunions, epic battles, and poignant farewells, Endgame delivers a satisfying conclusion while reshaping the MCU's landscape and setting the stage for a new era of heroes and adventures.",
         "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_FMjpg_UY2048_.jpg",
@@ -638,7 +659,7 @@ export default [
         "year": 2019,
         "rating": 7.4,
         "Hero": "Scarlet Witch",
-        "himg":"https://variety.com/wp-content/uploads/2023/06/Screen-Shot-2023-06-09-at-12.34.47-PM.png",
+        "himg": "https://variety.com/wp-content/uploads/2023/06/Screen-Shot-2023-06-09-at-12.34.47-PM.png",
         "images": [
             "https://i.pinimg.com/564x/05/2a/a9/052aa95dfa5e8f97b98207b32cd300ae.jpg",
         ],
@@ -667,7 +688,7 @@ export default [
         "description": "Thor: Ragnarok thrusts the God of Thunder into a cosmic adventure like never before. Stripped of his hammer and imprisoned on a distant planet, Thor must fight his way out to prevent the apocalyptic event of Ragnarok. Teaming up with old allies and new friends, including the Hulk and Valkyrie, Thor embarks on a hilarious and action-packed journey filled with colorful characters, epic battles, and witty humor. The film redefines the superhero genre with its bold visuals and irreverent tone.",
         "year": 2017,
         "Hero": "Falcon",
-        "himg":"https://i0.wp.com/www.thewrap.com/wp-content/uploads/2015/10/anthony-mackie.jpg?fit=618%2C412&ssl=1",
+        "himg": "https://i0.wp.com/www.thewrap.com/wp-content/uploads/2015/10/anthony-mackie.jpg?fit=618%2C412&ssl=1",
         "images": [
             "https://i.pinimg.com/564x/b0/c2/2b/b0c22be9c3f21f63c2d8c97ca35dd28a.jpg",
         ],
@@ -681,7 +702,7 @@ export default [
         "dlink": "https://pixeldrain.net/api/file/csAsi9ZR?download",
         "year": 2018,
         "Hero": "Winter Soldier",
-        "himg":"https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/47010/article_full%401x.png",
+        "himg": "https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/47010/article_full%401x.png",
         "images": [
             "https://i.pinimg.com/564x/60/fe/4b/60fe4b8eb7cdf8d90397e29bca131bca.jpg"
 
@@ -697,7 +718,7 @@ export default [
         "year": 2018,
         "rating": 8.4,
         "Hero": "Daredevil",
-        "himg":"https://i.pinimg.com/736x/fe/95/ed/fe95ed1a518e96bc76d719985705090f.jpg",
+        "himg": "https://i.pinimg.com/736x/fe/95/ed/fe95ed1a518e96bc76d719985705090f.jpg",
         "images": [
             "https://i.pinimg.com/564x/aa/4a/61/aa4a6134ade1362054d9456e614b3c34.jpg",
 
@@ -711,7 +732,7 @@ export default [
         "title": "Ant-Man and the Wasp",
         "description": "Ant-Man and the Wasp reunites Scott Lang and Hope van Dyne in a high-stakes, size-shifting adventure. As they race against time to rescue Hope's long-lost mother from the quantum realm, they face a formidable new adversary, Ghost, who can phase through solid matter. With inventive action sequences and comedic flair, the duo navigates through shrinking and enlarging landscapes, while balancing their personal lives and the responsibilities of being heroes. Packed with humor and heart, Ant-Man and the Wasp delivers a delightful and entertaining addition to the Marvel Cinematic Universe.",
         "year": 2018,
-        "himg":"https://images.hindustantimes.com/rf/image_size_640x362/HT/p2/2016/05/04/Pictures/krysten-ritter_ff3cc41e-11d3-11e6-a855-9958039a7c6d.jpg",
+        "himg": "https://images.hindustantimes.com/rf/image_size_640x362/HT/p2/2016/05/04/Pictures/krysten-ritter_ff3cc41e-11d3-11e6-a855-9958039a7c6d.jpg",
         "Hero": "Jessica Jones",
         "images": [
             "https://i.pinimg.com/564x/7a/b0/b7/7ab0b7aac18a00f025c8f3faa61c934a.jpg",
@@ -741,7 +762,7 @@ export default [
         "dlink": "https://b31e3cd4e7aadb8c50d06763a6cde3a1.r2.cloudflarestorage.com/hub/Doctor%20Strange%202016%20IMAX%201080p%2010bit%20DSNP%20WEB-DL%20x265%20HEVC%20%5BOrg%20Hindi%20BD%205.1%20640Kbps%20%2B%20English%20DDP%205.1%5D%20MSubs%20~%20Vegamovies.NL.mkv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=eced440c71968dbbf7b483a812d5326e%2F20240509%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20240509T144453Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&response-content-disposition=Doctor%20Strange%202016%20IMAX%201080p%2010bit%20DSNP%20WEB-DL%20x265%20HEVC%20%5BOrg%20Hindi%20BD%205.1%20640Kbps%20%2B%20English%20DDP%205.1%5D%20MSubs%20~%20Vegamovies.NL.mkv&X-Amz-Signature=11ad0d7b6493e29c7cc4f5c3f22c87c55b66008a3d735610dee14c9c360e0b38",
         "year": 2016,
         "Hero": "Iron Fist",
-        "himg":"https://variety.com/wp-content/uploads/2016/02/finn-jones-iron-fist.jpg",
+        "himg": "https://variety.com/wp-content/uploads/2016/02/finn-jones-iron-fist.jpg",
         "images": [
             "https://i.pinimg.com/564x/20/84/50/20845022050d6b99ae942a6ed7f13de5.jpg",
         ],
@@ -755,7 +776,7 @@ export default [
         "dlink": "https://green-bonus-ad4f.palosor7772625.workers.dev/038f84d7dd99ba828d7eda9940db85b106a0f018b8e367b19fe58be23a9ee81c77378b2736dd59496fcee0426ac0c395::ea6073d705fc89b08ae779ac10cd5216/1396595121/Guardians%20of%20the%20Galaxy%20Vol.%202%20(2017)%20IMAX%201080p%2010bit%20DSNP%20WEB-DL%20x265%20HEVC%20[Org%20Hindi%20BD%205.1%20640Kbps%20+%20English%20DDP%205.1]%20MSubs%20~%20Vegamovies.NL.mkv",
         "year": 2017,
         "Hero": "Wolverine",
-        "himg":"https://static.republika.co.id/uploads/images/inpicture_slide/hugh-jackman-_170309174559-789.jpg",
+        "himg": "https://static.republika.co.id/uploads/images/inpicture_slide/hugh-jackman-_170309174559-789.jpg",
         "images": [
             "https://i.pinimg.com/564x/e7/c4/b6/e7c4b6825fc6ff11cdf4d6b1ce077ccc.jpg",
         ],
@@ -766,7 +787,7 @@ export default [
         "id": "Spider-Man",
         "uid": "Spider-Man:Homecoming",
         "Hero": "Ghost Rider",
-        "himg":"https://www.hollywoodreporter.com/wp-content/uploads/2011/06/nicolas_cage_2011_a_p.jpg",
+        "himg": "https://www.hollywoodreporter.com/wp-content/uploads/2011/06/nicolas_cage_2011_a_p.jpg",
         "images": [
             "https://i.pinimg.com/564x/02/ad/22/02ad22978f34007131f7e8273d84c10b.jpg",
 
@@ -785,10 +806,10 @@ export default [
         "description": "Captain America: The Winter Soldier thrusts Steve Rogers into a world of espionage and intrigue when a shadowy conspiracy threatens S.H.I.E.L.D. With the help of Natasha Romanoff and new ally Sam Wilson, Captain America uncovers a chilling truth: his old friend Bucky Barnes, now the brainwashed assassin Winter Soldier, is at the heart of the conspiracy. Packed with intense action and political thriller elements, the film redefines the superhero genre.",
         "year": 2014,
         "Hero": "Moon Knight",
-        "himg":"https://images.fandango.com/ImageRenderer/300/0/redesign/static/img/default_poster.png/0/images/masterrepository/performer%20images/316067/OliverJackson-Cohen-2022_r.jpg",
+        "himg": "https://images.fandango.com/ImageRenderer/300/0/redesign/static/img/default_poster.png/0/images/masterrepository/performer%20images/316067/OliverJackson-Cohen-2022_r.jpg",
         "images": [
             "https://i.pinimg.com/564x/e0/d1/3f/e0d13f0502fad338a02ead315e96baf3.jpg",
-        "https://images.fandango.com/ImageRenderer/300/0/redesign/static/img/default_poster.png/0/images/masterrepository/performer%20images/316067/OliverJackson-Cohen-2022_r.jpg",
+            "https://images.fandango.com/ImageRenderer/300/0/redesign/static/img/default_poster.png/0/images/masterrepository/performer%20images/316067/OliverJackson-Cohen-2022_r.jpg",
 
         ],
         "rating": 7.7,
@@ -840,7 +861,7 @@ export default [
         "year": 2011,
         "dlink": "https://tartarus.feralhosting.com/firepig/JP/MOVIES/Thor.2011.1080p.BluRay.x264-SECTOR7/s7-thor.1080.mkv",
         "rating": 7,
-        "himg":"https://cdn.justjared.com/wp-content/uploads/2020/02/jane-elton/thomas-jane-anne-heche-elton-john-oscar-party-19.jpg",
+        "himg": "https://cdn.justjared.com/wp-content/uploads/2020/02/jane-elton/thomas-jane-anne-heche-elton-john-oscar-party-19.jpg",
         "Hero": "Punisher",
         "images": [
             "https://i.pinimg.com/564x/28/f3/4d/28f34d8683d639a3f876f92df25847ef.jpg",
@@ -855,7 +876,7 @@ export default [
         "description": "Captain America: The First Avenger follows Steve Rogers, a frail but determined young man who undergoes a transformative procedure, becoming the super-soldier Captain America. Tasked with defeating the villainous Red Skull and his Hydra forces during World War II, Captain America leads the fight for freedom and justice. Alongside his loyal allies, including Peggy Carter and Bucky Barnes, he confronts his own doubts and fears, embodying the ideals of heroism, sacrifice, and patriotism. Packed with thrilling action, heartfelt emotion, and historical resonance, The First Avenger is a classic tale of courage and honor.",
         "year": 2011,
         "Hero": "Quicksilver",
-        "himg":"https://screencritix.com/wp-content/uploads/2013/10/aaron-johnson.jpg",
+        "himg": "https://screencritix.com/wp-content/uploads/2013/10/aaron-johnson.jpg",
         "images": [
             "https://i.pinimg.com/564x/fe/8a/93/fe8a93cc4fc643524ef94b6e39d5a9ab.jpg",
 
@@ -870,7 +891,7 @@ export default [
         "title": "The Avengers",
         "description": "The Avengers unites Earth's mightiest heroes—Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye—to combat Loki and his alien army, threatening global destruction. As they set aside their differences and forge alliances, the team faces internal conflicts and external threats, testing their mettle and unity. Packed with exhilarating action, witty banter, and iconic moments, The Avengers is a thrilling superhero spectacle that sets the standard for epic ensemble films, showcasing the power of teamwork and heroism on a grand scale.",
         "year": 2012,
-        "himg":"https://static.wikia.nocookie.net/westworld/images/a/a2/Tessa_Thompson.jpg/revision/latest?cb=20161028053148",
+        "himg": "https://static.wikia.nocookie.net/westworld/images/a/a2/Tessa_Thompson.jpg/revision/latest?cb=20161028053148",
         "Hero": "Valkyrie",
         "images": [
             "https://i.pinimg.com/564x/7f/ac/1d/7fac1dc33e1afa2d3de85223c8776dec.jpg",
@@ -886,7 +907,7 @@ export default [
         "description": "In Iron Man 3, Tony Stark grapples with post-traumatic stress disorder following the events of The Avengers. When a mysterious terrorist known as the Mandarin attacks, Stark embarks on a personal quest for vengeance. Stripped of his armor and resources, Stark relies on his ingenuity and determination to confront the true nature of the threat. Packed with intense action, unexpected twists, and emotional depth, Iron Man 3 explores Stark's resilience and the cost of being a hero in a world full of dangers.",
         "year": 2013,
         "Hero": "Shang-Chi",
-        "himg":"https://www.comingsoon.net/wp-content/uploads/sites/3/2019/07/GettyImages-1163018028.jpg?w=800",
+        "himg": "https://www.comingsoon.net/wp-content/uploads/sites/3/2019/07/GettyImages-1163018028.jpg?w=800",
         "images": [
             "https://i.pinimg.com/564x/49/4e/78/494e78832696f6778c8a0dc7f495cf2a.jpg",
         ],
@@ -1203,7 +1224,7 @@ export default [
     },
     {
         "uid": "Daredevil",
-        "gen":"",
+        "gen": "",
         "title": "Daredevil",
         "year": 2003,
         "rating": 5.3,
@@ -1324,4 +1345,82 @@ export default [
         "description": "Punisher: War Zone depicts Frank Castle's relentless war on crime, now with a deadlier focus on the criminal underworld led by the sadistic Jigsaw. As Castle wages a one-man crusade, leaving a trail of destruction in his wake, he crosses paths with an FBI agent, a vengeful widow, and a reformed criminal, each with their own agenda. Packed with brutal action, gritty realism, and dark humor, War Zone explores the blurred lines between justice and vengeance, showcasing the Punisher's unyielding pursuit of his own brand of brutal justice in a city consumed by chaos.",
         "thumbnail": "https://m.media-amazon.com/images/M/MV5BYjlmODc5ZjMtOGNhNC00ZDdmLWEzNGYtM2FiOGI5MzIzMWE4XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_FMjpg_UX1012_.jpg",
     },
+
+
+    {
+        "uid": "A Killer Paradox",
+        "gen": "thriller",
+        "title": "A Killer Paradox",
+        "description": "A gripping thriller that delves into a complex web of murder and mystery, challenging the boundaries of reality.",
+        "year": 2024,
+        "rating": "7.8",
+        "dlink": "https://example.com/a-killer-paradox",
+        "himg": "https://www.example.com/images/a-killer-paradox-main.jpg",
+        "thumbnail": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/02/a-killer-paradox-tv-show-poster.jpg?q=49&fit=crop&w=320&dpr=2",
+        "images": [
+            "https://www.example.com/images/a-killer-paradox-1.jpg",
+            "https://www.example.com/images/a-killer-paradox-2.jpg"
+        ]
+    },
+    {
+        "uid": "My Demon",
+        "gen": "drama",
+        "title": "My Demon",
+        "description": "A long-running drama series exploring the intricate and often dark relationships of its characters.",
+        "year": 2013,
+        "rating": "8.2",
+        "dlink": "https://example.com/my-demon",
+        "himg": "https://www.example.com/images/my-demon-main.jpg",
+        "thumbnail": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/12/my-demon-poster.jpg?q=49&fit=crop&w=320&dpr=2",
+        "images": [
+            "https://www.example.com/images/my-demon-1.jpg",
+            "https://www.example.com/images/my-demon-2.jpg"
+        ]
+    },
+    {
+        "uid": "The Silent Sea",
+        "gen": "sci-fi",
+        "title": "The Silent Sea",
+        "description": "A sci-fi series set in a dystopian future where Earth is ravaged by desertification, and a mission to the moon holds the key to humanity's survival.",
+        "year": 2021,
+        "rating": "7.5",
+        "dlink": "https://example.com/the-silent-sea",
+        "himg": "https://www.example.com/images/the-silent-sea-main.jpg",
+        "thumbnail": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/07/the-silent-sea-tv-show-poster.jpg",
+        "images": [
+            "https://www.example.com/images/the-silent-sea-1.jpg",
+            "https://www.example.com/images/the-silent-sea-2.jpg"
+        ]
+    },
+    {
+        "uid": "Guardian: The Lonely and Great God",
+        "gen": "drama",
+        "title": "Guardian: The Lonely and Great God",
+        "description": "A centuries-old goblin seeks a human bride to end his cursed immortal life.",
+        "year": 2016,
+        "rating": "8.6",
+        "dlink": "https://example.com/guardian-lonely-great-god",
+        "himg": "https://www.example.com/images/guardian-lonely-great-god-main.jpg",
+        "thumbnail": "https://cdn.egybest.vip/s/d2821ad52a86da71b37a45dc1d037684.jpg",
+        "images": [
+            "https://www.example.com/images/guardian-lonely-great-god-1.jpg",
+            "https://www.example.com/images/guardian-lonely-great-god-2.jpg"
+        ]
+    },
+    {
+        "uid": "Descendants of the Sun",
+        "gen": "drama",
+        "title": "Descendants of the Sun",
+        "description": "A love story between Captain Yoo Shi Jin, a special forces officer, and Doctor Kang Mo Yeon, set in a war-torn country.",
+        "year": 2016,
+        "rating": "8.3",
+        "dlink": "https://example.com/descendants-of-the-sun",
+        "himg": "https://www.example.com/images/descendants-of-the-sun-main.jpg",
+        "thumbnail": "https://th.bing.com/th/id/OIP.0JUgKkuVXWEp3kSLPq9vcgHaLH?rs=1&pid=ImgDetMain",
+        "images": [
+            "https://www.example.com/images/descendants-of-the-sun-1.jpg",
+            "https://www.example.com/images/descendants-of-the-sun-2.jpg"
+        ]
+    }
 ]
+export default moviedata;

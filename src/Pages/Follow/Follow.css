@@ -1,0 +1,86 @@
+.follow-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.follow {
+    background-color:black;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.follow h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.follow p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.follow .inst, .follow .link, .follow .git {
+    margin-top: 20px;
+    padding: 15px;
+    background-color:black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.follow .inst h2, .follow .link h1, .follow .git h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #007bff;
+}
+
+.follow .inst p, .follow .link p, .follow .git p {
+    font-size: 1.2em;
+    color: white;
+}
+
+.follow .link h1 {
+    font-size: 1.2em;
+    word-break: break-all;
+    color: #007bff;
+}
+
+.follow .git p {
+
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .follow-container {
+        padding: 10px;
+    }
+
+    .follow {
+        padding: 20px;
+    }
+
+    .follow h1 {
+        font-size: 1.5em;
+    }
+
+    .follow p {
+        font-size: 1em;
+    }
+
+    .follow .inst h2, .follow .link h1, .follow .git h2 {
+        font-size: 1.2em;
+    }
+
+    .follow .inst p, .follow .link p, .follow .git p {
+        font-size: 1em;
+    }
+
+    .follow .link h1 {
+        font-size: 1em;
+    }
+}

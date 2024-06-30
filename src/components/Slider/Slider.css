@@ -106,6 +106,9 @@
 
 hr {
   border: none;
+   /* Adjust height as needed */
+  background: linear-gradient(to right, transparent, red, transparent);
+  
   border-bottom: 1px solid seashell;
   width: 90%;
   margin: 30px auto;
